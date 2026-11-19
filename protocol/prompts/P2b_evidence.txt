@@ -1,0 +1,15 @@
+Extract the data from this {doc_type_human} into JSON that matches this schema:
+{schema}
+For every field return an object {{"value": ..., "quote": ...}} where "value" follows the rules below and "quote" is the exact text from the document that contains the value.
+Rules:
+- Copy names and identifiers (numbers, IDs, IBAN) exactly as they appear in the document; do not translate them.
+- Seller / merchant name: any name of the business that issued the document as printed (trade name or legal name). Give the name only, without the address, phone number or tax number.
+- Write dates as YYYY-MM-DD, times as HH:MM, currency as an ISO 4217 code, and amounts as plain numbers with "." as the decimal separator, without currency symbols or thousands separators.
+- Receipt total: the grand total of this purchase only (the SUMME / TOTAL / TOTALE line); not the cash tendered, not the change, and not a prior balance.
+- Receipt subtotal and tax amount: only if the receipt prints a subtotal line or a tax amount line; otherwise null. Do not copy the total into the subtotal.
+- Tax amount: a service charge is not tax; local taxes such as PB1 are tax.
+- Invoice total_gross (including tax) and total_net (excluding tax): take each only from its own printed amount. Never copy one into the other and never compute one from the other; if it is not printed, null.
+- Invoice total_tax: only an invoice-level tax total printed in the totals block (a TAX / VAT / MwSt. line); a per-line tax column is not the invoice tax total; if there is no such line, null.
+- Invoice total_gross, total_net and total_tax are the totals of this invoice only. Do not include outstanding balances from earlier invoices, prior debt, credits or overpayments (e.g. "quarterly premium 220.00, outstanding claim 220.00, amount to pay 440.00": total_gross is 220.00).
+- If a field is not present in the document, return {{"value": null, "quote": null}}. Never guess, infer or invent a value; a value without a quote from the document is not allowed.
+Return only the JSON object.

@@ -1,0 +1,15 @@
+model,mode,better,worse,net,p,inv_fixed,inv_new,p_inv,p_holm,p_inv_holm,verdict,verdict_inv
+qwen3.5-9b,P0b,10,10,0,1.0,0,7,0.015625,1.0,0.1875,no difference,no difference
+qwen3.5-9b,P2b,27,18,9,0.23269319190831084,5,4,1.0,1.0,1.0,no difference,no difference
+qwen3.5-9b,constr,10,18,-8,0.1849333420395851,1,2,1.0,1.0,1.0,no difference,no difference
+qwen3.5-9b,q6,37,13,24,0.000936222910851825,6,8,0.79052734375,0.010298452019370075,1.0,better,no difference
+qwen3.5-9b,q8,41,13,28,0.00017512673440589488,7,7,1.0,0.0022766475472766334,1.0,better,no difference
+gemma4-12b,P0b,19,10,9,0.13604594767093658,0,0,1.0,1.0,1.0,no difference,no difference
+gemma4-12b,P2b,25,53,-28,0.00203114037416273,1,0,1.0,0.0203114037416273,1.0,worse,no difference
+gemma4-12b,constr,15,13,2,0.8505540192127228,1,2,1.0,1.0,1.0,no difference,no difference
+gemma4-12b,q6,105,28,77,1.1197841824364673e-11,1,8,0.0390625,1.5676978554110544e-10,0.4296875,better,no difference
+qwen3vl-8b,P0b,7,3,4,0.34375,0,2,0.5,1.0,1.0,no difference,no difference
+qwen3vl-8b,P2b,14,20,-6,0.39152830513194203,4,2,0.6875,1.0,1.0,no difference,no difference
+qwen3vl-8b,constr,6,3,3,0.5078125,0,1,1.0,1.0,1.0,no difference,no difference
+qwen3vl-8b,q6,38,17,21,0.006455803109956637,8,0,0.0078125,0.058102227989609734,0.109375,no difference,no difference
+qwen3vl-8b,q8,38,13,25,0.0006210434562277101,8,0,0.0078125,0.007452521474732521,0.109375,better,no difference

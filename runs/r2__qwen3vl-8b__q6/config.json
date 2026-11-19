@@ -1,0 +1,19 @@
+{
+ "model": "mlx-community/Qwen3-VL-8B-Instruct-6bit",
+ "revision": "0b6a7d52ff9e393d9560e7b1e0fcd8ac40ba7b60",
+ "prompt": "P1b",
+ "max_pixels": null,
+ "max_soft_tokens": null,
+ "max_tokens": 1024,
+ "constrained": false,
+ "run_id": "r2__qwen3vl-8b__q6",
+ "n_selected": 400,
+ "mlx_vlm": "0.7.10",
+ "image_processor": {
+  "min_pixels": 65536,
+  "max_pixels": 16777216
+ },
+ "load_s": 3.97,
+ "load_peak_gb": 7.809,
+ "finished_at": "2026-11-18 00:47:08"
+}

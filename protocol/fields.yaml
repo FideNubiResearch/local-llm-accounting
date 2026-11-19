@@ -1,0 +1,47 @@
+# Human-readable field names used in prompts (probe questions) and reports.
+doc_type_human:
+  invoice: invoice
+  receipt: receipt
+  bank_statement: bank statement
+  financial_report: financial report
+  form: form
+
+fields:
+  invoice_number: invoice number
+  issue_date: invoice date
+  due_date: payment due date
+  currency: currency
+  seller_name: seller (supplier) name
+  seller_vat_id: seller VAT / tax identification number
+  seller_iban: seller bank account IBAN
+  buyer_name: buyer (customer) name
+  buyer_vat_id: buyer VAT / tax identification number
+  purchase_order: purchase order (PO) number
+  total_net: total amount excluding tax
+  total_tax: total tax (VAT) amount
+  total_gross: total amount including tax
+  merchant_name: store / merchant name
+  merchant_tax_id: merchant tax identification number
+  date: transaction date
+  time: transaction time
+  subtotal: subtotal before tax
+  tax_amount: tax amount
+  total: total amount paid
+  payment_method: payment method
+  bank_name: bank name
+  account_holder: account holder name
+  account_number: account number / IBAN
+  period_start: statement period start date
+  period_end: statement period end date
+  opening_balance: opening balance
+  closing_balance: closing balance
+
+# Fields that never belong to a doc type: asked as "foreign" probes (answer must be null),
+# used only when the absence detector does not fire on the document text.
+foreign_probes:
+  receipt: [purchase_order, due_date, seller_iban, buyer_vat_id]
+  invoice: []
+  bank_statement: [invoice_number, purchase_order]
+
+# Fields that may be masked (value painted over, label kept) to create controlled absences.
+maskable: [total, total_gross, issue_date, date, invoice_number, subtotal, tax_amount, merchant_name, seller_name, due_date]

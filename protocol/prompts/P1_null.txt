@@ -1,0 +1,7 @@
+Extract the data from this {doc_type_human} into JSON that matches this schema:
+{schema}
+Rules:
+- Copy names and identifiers (numbers, IDs, IBAN) exactly as they appear in the document; do not translate them.
+- Write dates as YYYY-MM-DD, times as HH:MM, currency as an ISO 4217 code, and amounts as plain numbers with "." as the decimal separator, without currency symbols or thousands separators.
+- If a field is not present in the document, set it to null. Never guess, infer or invent a value.
+Return only the JSON object.

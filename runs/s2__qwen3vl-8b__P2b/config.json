@@ -1,0 +1,19 @@
+{
+ "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+ "revision": "defcdea7cc7a4b0858fea563cbbce171d328e457",
+ "prompt": "P2b",
+ "max_pixels": null,
+ "max_soft_tokens": null,
+ "max_tokens": 1024,
+ "constrained": false,
+ "run_id": "s2__qwen3vl-8b__P2b",
+ "n_selected": 33,
+ "mlx_vlm": "0.7.10",
+ "image_processor": {
+  "min_pixels": 65536,
+  "max_pixels": 16777216
+ },
+ "load_s": 1.99,
+ "load_peak_gb": 5.761,
+ "finished_at": "2026-11-16 06:18:32"
+}

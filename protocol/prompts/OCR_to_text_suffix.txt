@@ -1,0 +1,4 @@
+The document text (from OCR, layout preserved) is below between <document> tags.
+<document>
+{doc_text}
+</document>

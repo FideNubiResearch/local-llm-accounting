@@ -1,0 +1,3 @@
+Extract the data from this {doc_type_human} into JSON that matches this schema:
+{schema}
+Return only the JSON object.

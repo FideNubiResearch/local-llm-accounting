@@ -1,0 +1,14 @@
+.venv/
+data/raw/
+data/generated/
+__pycache__/
+*.pyc
+.DS_Store
+runs/*.log
+models_cache/
+runs/smoke_*/
+runs/dashboard.html
+
+# regenerable from runs/ + harness (gt_check, rescore)
+reports/gt_check*/votes.csv
+reports/rescore_r1*/*/fields.csv

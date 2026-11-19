@@ -1,0 +1,7 @@
+Extract the data from this {doc_type_human} into JSON that matches this schema:
+{schema}
+For every field return an object {{"value": ..., "quote": ...}} where "quote" is the exact text from the document that contains the value.
+Rules:
+- If a field is not present in the document, return {{"value": null, "quote": null}}. Never guess, infer or invent a value.
+- Dates as YYYY-MM-DD. Amounts as plain numbers with "." as decimal separator, without currency symbols or thousands separators.
+Return only the JSON object.

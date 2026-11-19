@@ -1,0 +1,108 @@
+{
+  "_comment": "Canonical extraction schemas, one per doc_type. Every scalar is nullable: null = 'not present in the document'. Dates ISO YYYY-MM-DD, amounts as decimal strings exactly as numbers (no currency symbols, '.' decimal separator). Same schema for every model.",
+  "invoice": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "invoice_number":  {"type": ["string", "null"]},
+      "issue_date":      {"type": ["string", "null"], "description": "YYYY-MM-DD"},
+      "due_date":        {"type": ["string", "null"], "description": "YYYY-MM-DD"},
+      "currency":        {"type": ["string", "null"], "description": "ISO 4217 code, e.g. EUR"},
+      "seller_name":     {"type": ["string", "null"]},
+      "seller_vat_id":   {"type": ["string", "null"]},
+      "seller_iban":     {"type": ["string", "null"]},
+      "buyer_name":      {"type": ["string", "null"]},
+      "buyer_vat_id":    {"type": ["string", "null"]},
+      "purchase_order":  {"type": ["string", "null"], "description": "buyer order / PO reference"},
+      "total_net":       {"type": ["string", "null"]},
+      "total_tax":       {"type": ["string", "null"]},
+      "total_gross":     {"type": ["string", "null"], "description": "total including tax"},
+      "line_items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "description": {"type": ["string", "null"]},
+            "quantity":    {"type": ["string", "null"]},
+            "unit_price":  {"type": ["string", "null"]},
+            "line_total":  {"type": ["string", "null"]}
+          },
+          "required": ["description", "quantity", "unit_price", "line_total"]
+        }
+      }
+    },
+    "required": ["invoice_number", "issue_date", "due_date", "currency", "seller_name", "seller_vat_id", "seller_iban", "buyer_name", "buyer_vat_id", "purchase_order", "total_net", "total_tax", "total_gross", "line_items"]
+  },
+  "receipt": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "merchant_name":   {"type": ["string", "null"]},
+      "merchant_tax_id": {"type": ["string", "null"]},
+      "date":            {"type": ["string", "null"], "description": "YYYY-MM-DD"},
+      "time":            {"type": ["string", "null"], "description": "HH:MM"},
+      "currency":        {"type": ["string", "null"]},
+      "subtotal":        {"type": ["string", "null"]},
+      "tax_amount":      {"type": ["string", "null"]},
+      "total":           {"type": ["string", "null"]},
+      "payment_method":  {"type": ["string", "null"]},
+      "line_items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name":     {"type": ["string", "null"]},
+            "quantity": {"type": ["string", "null"]},
+            "price":    {"type": ["string", "null"]}
+          },
+          "required": ["name", "quantity", "price"]
+        }
+      }
+    },
+    "required": ["merchant_name", "merchant_tax_id", "date", "time", "currency", "subtotal", "tax_amount", "total", "payment_method", "line_items"]
+  },
+  "bank_statement": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "bank_name":        {"type": ["string", "null"]},
+      "account_holder":   {"type": ["string", "null"]},
+      "account_number":   {"type": ["string", "null"], "description": "IBAN or account number"},
+      "currency":         {"type": ["string", "null"]},
+      "period_start":     {"type": ["string", "null"], "description": "YYYY-MM-DD"},
+      "period_end":       {"type": ["string", "null"], "description": "YYYY-MM-DD"},
+      "opening_balance":  {"type": ["string", "null"]},
+      "closing_balance":  {"type": ["string", "null"]},
+      "transactions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "date":        {"type": ["string", "null"]},
+            "description": {"type": ["string", "null"]},
+            "amount":      {"type": ["string", "null"], "description": "signed: negative = debit"}
+          },
+          "required": ["date", "description", "amount"]
+        }
+      }
+    },
+    "required": ["bank_name", "account_holder", "account_number", "currency", "period_start", "period_end", "opening_balance", "closing_balance", "transactions"]
+  },
+  "financial_report": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "organization_name":    {"type": ["string", "null"]},
+      "registration_number":  {"type": ["string", "null"]},
+      "period_end_date":      {"type": ["string", "null"], "description": "YYYY-MM-DD"},
+      "total_income":         {"type": ["string", "null"]},
+      "total_spending":       {"type": ["string", "null"]},
+      "address_postcode":     {"type": ["string", "null"]},
+      "address_post_town":    {"type": ["string", "null"]}
+    },
+    "required": ["organization_name", "registration_number", "period_end_date", "total_income", "total_spending", "address_postcode", "address_post_town"]
+  }
+}

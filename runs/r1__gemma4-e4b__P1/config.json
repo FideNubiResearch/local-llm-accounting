@@ -1,0 +1,18 @@
+{
+ "model": "mlx-community/gemma-4-e4b-it-4bit",
+ "revision": "475b9088d29754a3379866cf5aeb6b41acd313c2",
+ "prompt": "P1",
+ "max_pixels": null,
+ "max_soft_tokens": 1120,
+ "max_tokens": 1024,
+ "constrained": false,
+ "run_id": "r1__gemma4-e4b__P1",
+ "n_selected": 1574,
+ "mlx_vlm": "0.7.10",
+ "image_processor": {
+  "max_soft_tokens": 1120
+ },
+ "load_s": 3.7,
+ "load_peak_gb": 5.149,
+ "finished_at": "2026-11-12 20:17:05"
+}

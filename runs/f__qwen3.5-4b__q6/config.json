@@ -1,0 +1,19 @@
+{
+ "model": "mlx-community/Qwen3.5-4B-6bit",
+ "revision": "fbb1092aa9daef007603ea9273cd24c225a409f1",
+ "prompt": "P1b",
+ "max_pixels": null,
+ "max_soft_tokens": null,
+ "max_tokens": 1024,
+ "constrained": false,
+ "run_id": "f__qwen3.5-4b__q6",
+ "n_selected": 1572,
+ "mlx_vlm": "0.7.10",
+ "image_processor": {
+  "min_pixels": 65536,
+  "max_pixels": 16777216
+ },
+ "load_s": 2.39,
+ "load_peak_gb": 4.086,
+ "finished_at": "2026-11-19 04:44:29"
+}

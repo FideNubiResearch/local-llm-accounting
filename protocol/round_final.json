@@ -1,0 +1,31 @@
+{
+ "name": "Итоговый прогон (f) — лучшая конфигурация раунда 2 + qwen3.5-4b в том же режиме, весь final/ v5",
+ "about": "protocol/preregistration.md раздел 5: лучшая конфигурация r2 = gemma4-12b q6 (reports/round2/compare.md); qwen3.5-4b q6 — сначала smoke на 33 документах (раздел 3), полный прогон после приёмки smoke (hold). Запуск 2026-11-18, iogpu.wired_limit_mb = 0 (как во всём r2). Smoke s3 принят 2026-11-18 (JSON 100 %, F1 95,3 → 96,3 против 4 бит на тех же 33, своп 0), hold снят.",
+ "prompt": "P1b",
+ "where": [],
+ "runs": [
+  {
+   "run_id": "s3__qwen3.5-4b__q6",
+   "model": "mlx-community/Qwen3.5-4B-6bit",
+   "revision": "fbb1092aa9daef007603ea9273cd24c225a409f1",
+   "prompt": "P1b",
+   "docs": "protocol/samples/smoke.txt",
+   "est_sec": 14
+  },
+  {
+   "run_id": "f__gemma4-12b__q6",
+   "model": "mlx-community/gemma-4-12B-it-6bit",
+   "revision": "2fe53aeb9b8686eefa543a60d6aa364c5b219aac",
+   "prompt": "P1b",
+   "est_sec": 33,
+   "max_soft_tokens": 1120
+  },
+  {
+   "run_id": "f__qwen3.5-4b__q6",
+   "model": "mlx-community/Qwen3.5-4B-6bit",
+   "revision": "fbb1092aa9daef007603ea9273cd24c225a409f1",
+   "prompt": "P1b",
+   "est_sec": 14
+  }
+ ]
+}
