@@ -50,8 +50,8 @@ source and type). `gemma4-12b` 8-bit and Qwen3.8 27B (3-bit) do not fit in memor
 - `reports/` — comparisons (aggregated results only)
 - `runs/<run_id>/` — `config.json` and `summary.md` of every run
 - `tools/`, `tests/` — dataset assembly helpers, publication script and unit tests
-- `00-plan.md`, `01-literature.md`, `05-closeout-plan.md`, `journal.md` — plan, literature, working log
-  (English translations of the working documents; they are added as they are translated)
+- `00-plan.md`, `01-literature.md`, `05-closeout-plan.md`, `journal.md` — plan, literature review, close-out plan,
+  working log
 
 ## What is not here
 
