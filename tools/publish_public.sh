@@ -56,6 +56,14 @@ if git -C "$ROOT" cat-file -e HEAD:public_en 2>/dev/null; then
   done < <(git -C "$ROOT" ls-tree -r --name-only HEAD public_en)
   [ -z "$stale" ] || { echo "translation older than its Russian source (update public_en/):$stale"; exit 3; }
 fi
+# redaction (patterns are built from pieces so that this script does not contain what it removes)
+U="/Use""rs/"
+{ grep -rlI --exclude-dir=.git -e "${U}mac""admin" "$REPO" || true; } | while read -r f; do
+  perl -pi -e "s#${U}mac\\w+/Documents/[^/]+/local-llm-accounting#<project>#g; s#${U}mac\\w+#~#g" "$f"
+done
+# tax numbers of companies in the journal (Portuguese NIF of legal entities start with 5)
+[ ! -f "$REPO/journal.md" ] || perl -pi -e 's/(?<!\d)5\d{8}(?!\d)/<NIF>/g' "$REPO/journal.md"
+
 # Russian files without a translation are not published yet
 untranslated=$(cd "$REPO" && find . -path ./.git -prune -o -type f -print0 \
   | xargs -0 perl -CSD -ne 'if (/\p{Cyrillic}/) { print "$ARGV\n"; close ARGV }' 2>/dev/null | sed 's#^\./##' | sort || true)
@@ -65,14 +73,6 @@ if [ -n "$untranslated" ]; then
 fi
 find "$REPO" -name __pycache__ -prune -exec rm -rf {} + 2>/dev/null || true
 find "$REPO" -name .DS_Store -delete
-
-# redaction (patterns are built from pieces so that this script does not contain what it removes)
-U="/Use""rs/"
-{ grep -rlI --exclude-dir=.git -e "${U}mac""admin" "$REPO" || true; } | while read -r f; do
-  perl -pi -e "s#${U}mac\\w+/Documents/[^/]+/local-llm-accounting#<project>#g; s#${U}mac\\w+#~#g" "$f"
-done
-# tax numbers of companies in the journal (Portuguese NIF of legal entities start with 5)
-[ ! -f "$REPO/journal.md" ] || perl -pi -e 's/(?<!\d)5\d{8}(?!\d)/<NIF>/g' "$REPO/journal.md"
 
 cd "$REPO"
 git add -A
