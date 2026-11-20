@@ -1,0 +1,1950 @@
+doc_id,field,printed,reason
+pt__20210507_212713,seller_name,ferragens e ferramentas,"independent review: unsure - page_1: Ferragens e Ferramentas at the top, Cronograma, Lda at the bottom; the first line may describe the shop, and the question does not specify trade vs legal name."
+pt__20210324_202518,seller_name,bp,independent review: unsure - page_1: BP DOMINGOS SEQUEIRA and PETROCOMIL COMBUSTIVEIS LDA in the header; the seller name question allows different names.
+wild__0265,date,02/08/2016,no single canonical form
+wild__0003,date,08/02/10,no single canonical form
+wild__0298,date,10/03/2013,no single canonical form
+wild__0136,date,05/07/2016,no single canonical form
+wild__0176,date,"02/17/14,",no single canonical form
+wild__0063,date,27Apr'13,no single canonical form
+wild__0171,date,17JUL89,no single canonical form
+wild__0332,date,4/8/2017,no single canonical form
+wild__0431,date,02/01/2018,no single canonical form
+wild__0089,date,05/02/18,no single canonical form
+wild__0049,date,05/02/18,no single canonical form
+wild__0309,date,11/08/2012,no single canonical form
+wild__0306,date,"02/20/16,",no single canonical form
+wild__0081,date,10/05/2017,no single canonical form
+wild__0074,date,02/10/2015,no single canonical form
+sroie__X51005724623,merchant_name,KEDAI PAPAN YEW CHUAN,independent review: unsure - page_1: a white bar covers parts of KEDAI and CHUAN; the full correction cannot be confirmed independently from this page without reconstructing it from a known name.
+fatura__Template48_Instance1__mask,total_gross,222.66,mask kind invalid
+fatura__Template26_Instance10__mask,due_date,11-Jul-2018,mask kind invalid
+fatura__Template36_Instance0__mask,total_gross,1141.74,mask kind invalid
+fatura__Template23_Instance10__mask,total_gross,571.45,mask kind invalid
+wild__0265__mask,merchant_name,TheWild Restaurant,mask kind invalid
+wild__0441__mask,tax_amount,0.00,mask kind invalid
+wild__0306__mask,subtotal,46.00,mask kind invalid
+sroie__X51006328345__mask,total,7.20,mask kind invalid
+sroie__X51005741929__mask,total,5.50,mask kind invalid
+sroie__X51005746204__mask,total,308.70,mask kind invalid
+sroie__X51006334770__mask,total,1.40,mask kind invalid
+cord__093__mask,subtotal,"16,363",mask kind invalid
+cord__057,*,,no confirmed value left
+cord__096__mask,subtotal,"41,000",mask kind invalid
+cord__045__mask,total,"88,000",mask kind invalid
+cord__076,*,,no confirmed value left
+cord__030__mask,subtotal,"28,636",mask kind invalid
+cord__089__mask,subtotal,"40,000",mask kind invalid
+cord__064__mask,total,16.000,mask kind invalid
+cord__081__mask,*,,no confirmed value left
+test-fi-FI-classic-000,*,,locale outside requested eight
+test-fi-FI-classic-001,*,,locale outside requested eight
+test-fi-FI-classic-002,*,,locale outside requested eight
+test-fi-FI-classic-003,*,,locale outside requested eight
+test-fi-FI-classic-004,*,,locale outside requested eight
+test-fi-FI-classic-005,*,,locale outside requested eight
+test-fi-FI-classic-006,*,,locale outside requested eight
+test-fi-FI-classic-007,*,,locale outside requested eight
+test-fi-FI-classic-008,*,,locale outside requested eight
+test-fi-FI-classic-009,*,,locale outside requested eight
+test-fi-FI-classic-010,*,,locale outside requested eight
+test-fi-FI-classic-011,*,,locale outside requested eight
+test-fi-FI-classic-012,*,,locale outside requested eight
+test-fi-FI-classic-013,*,,locale outside requested eight
+test-fi-FI-classic-014,*,,locale outside requested eight
+test-fi-FI-classic-015,*,,locale outside requested eight
+test-fi-FI-classic-016,*,,locale outside requested eight
+test-fi-FI-classic-017,*,,locale outside requested eight
+test-fi-FI-classic-018,*,,locale outside requested eight
+test-fi-FI-classic-019,*,,locale outside requested eight
+test-fi-FI-modern-000,*,,locale outside requested eight
+test-fi-FI-modern-001,*,,locale outside requested eight
+test-fi-FI-modern-002,*,,locale outside requested eight
+test-fi-FI-modern-003,*,,locale outside requested eight
+test-fi-FI-modern-004,*,,locale outside requested eight
+test-fi-FI-modern-005,*,,locale outside requested eight
+test-fi-FI-modern-006,*,,locale outside requested eight
+test-fi-FI-modern-007,*,,locale outside requested eight
+test-fi-FI-modern-008,*,,locale outside requested eight
+test-fi-FI-modern-009,*,,locale outside requested eight
+test-fi-FI-modern-010,*,,locale outside requested eight
+test-fi-FI-modern-011,*,,locale outside requested eight
+test-fi-FI-modern-012,*,,locale outside requested eight
+test-fi-FI-modern-013,*,,locale outside requested eight
+test-fi-FI-modern-014,*,,locale outside requested eight
+test-fi-FI-modern-015,*,,locale outside requested eight
+test-fi-FI-modern-016,*,,locale outside requested eight
+test-fi-FI-modern-017,*,,locale outside requested eight
+test-fi-FI-modern-018,*,,locale outside requested eight
+test-fi-FI-modern-019,*,,locale outside requested eight
+test-fi-FI-compact-000,*,,locale outside requested eight
+test-fi-FI-compact-001,*,,locale outside requested eight
+test-fi-FI-compact-002,*,,locale outside requested eight
+test-fi-FI-compact-003,*,,locale outside requested eight
+test-fi-FI-compact-004,*,,locale outside requested eight
+test-fi-FI-compact-005,*,,locale outside requested eight
+test-fi-FI-compact-006,*,,locale outside requested eight
+test-fi-FI-compact-007,*,,locale outside requested eight
+test-fi-FI-compact-008,*,,locale outside requested eight
+test-fi-FI-compact-009,*,,locale outside requested eight
+test-fi-FI-compact-010,*,,locale outside requested eight
+test-fi-FI-compact-011,*,,locale outside requested eight
+test-fi-FI-compact-012,*,,locale outside requested eight
+test-fi-FI-compact-013,*,,locale outside requested eight
+test-fi-FI-compact-014,*,,locale outside requested eight
+test-fi-FI-compact-015,*,,locale outside requested eight
+test-fi-FI-compact-016,*,,locale outside requested eight
+test-fi-FI-compact-017,*,,locale outside requested eight
+test-fi-FI-compact-018,*,,locale outside requested eight
+test-fi-FI-compact-019,*,,locale outside requested eight
+test-fi-FI-grid-000,*,,locale outside requested eight
+test-fi-FI-grid-001,*,,locale outside requested eight
+test-fi-FI-grid-002,*,,locale outside requested eight
+test-fi-FI-grid-003,*,,locale outside requested eight
+test-fi-FI-grid-004,*,,locale outside requested eight
+test-fi-FI-grid-005,*,,locale outside requested eight
+test-fi-FI-grid-006,*,,locale outside requested eight
+test-fi-FI-grid-007,*,,locale outside requested eight
+test-fi-FI-grid-008,*,,locale outside requested eight
+test-fi-FI-grid-009,*,,locale outside requested eight
+test-fi-FI-grid-010,*,,locale outside requested eight
+test-fi-FI-grid-011,*,,locale outside requested eight
+test-fi-FI-grid-012,*,,locale outside requested eight
+test-fi-FI-grid-013,*,,locale outside requested eight
+test-fi-FI-grid-014,*,,locale outside requested eight
+test-fi-FI-grid-015,*,,locale outside requested eight
+test-fi-FI-grid-016,*,,locale outside requested eight
+test-fi-FI-grid-017,*,,locale outside requested eight
+test-fi-FI-grid-018,*,,locale outside requested eight
+test-fi-FI-grid-019,*,,locale outside requested eight
+test-fi-FI-narrow-000,*,,locale outside requested eight
+test-fi-FI-narrow-001,*,,locale outside requested eight
+test-fi-FI-narrow-002,*,,locale outside requested eight
+test-fi-FI-narrow-003,*,,locale outside requested eight
+test-fi-FI-narrow-004,*,,locale outside requested eight
+test-fi-FI-narrow-005,*,,locale outside requested eight
+test-fi-FI-narrow-006,*,,locale outside requested eight
+test-fi-FI-narrow-007,*,,locale outside requested eight
+test-fi-FI-narrow-008,*,,locale outside requested eight
+test-fi-FI-narrow-009,*,,locale outside requested eight
+test-fi-FI-narrow-010,*,,locale outside requested eight
+test-fi-FI-narrow-011,*,,locale outside requested eight
+test-fi-FI-narrow-012,*,,locale outside requested eight
+test-fi-FI-narrow-013,*,,locale outside requested eight
+test-fi-FI-narrow-014,*,,locale outside requested eight
+test-fi-FI-narrow-015,*,,locale outside requested eight
+test-fi-FI-narrow-016,*,,locale outside requested eight
+test-fi-FI-narrow-017,*,,locale outside requested eight
+test-fi-FI-narrow-018,*,,locale outside requested eight
+test-fi-FI-narrow-019,*,,locale outside requested eight
+test-sv-SE-classic-000,*,,locale outside requested eight
+test-sv-SE-classic-001,*,,locale outside requested eight
+test-sv-SE-classic-002,*,,locale outside requested eight
+test-sv-SE-classic-003,*,,locale outside requested eight
+test-sv-SE-classic-004,*,,locale outside requested eight
+test-sv-SE-classic-005,*,,locale outside requested eight
+test-sv-SE-classic-006,*,,locale outside requested eight
+test-sv-SE-classic-007,*,,locale outside requested eight
+test-sv-SE-classic-008,*,,locale outside requested eight
+test-sv-SE-classic-009,*,,locale outside requested eight
+test-sv-SE-classic-010,*,,locale outside requested eight
+test-sv-SE-classic-011,*,,locale outside requested eight
+test-sv-SE-classic-012,*,,locale outside requested eight
+test-sv-SE-classic-013,*,,locale outside requested eight
+test-sv-SE-classic-014,*,,locale outside requested eight
+test-sv-SE-classic-015,*,,locale outside requested eight
+test-sv-SE-classic-016,*,,locale outside requested eight
+test-sv-SE-classic-017,*,,locale outside requested eight
+test-sv-SE-classic-018,*,,locale outside requested eight
+test-sv-SE-classic-019,*,,locale outside requested eight
+test-sv-SE-modern-000,*,,locale outside requested eight
+test-sv-SE-modern-001,*,,locale outside requested eight
+test-sv-SE-modern-002,*,,locale outside requested eight
+test-sv-SE-modern-003,*,,locale outside requested eight
+test-sv-SE-modern-004,*,,locale outside requested eight
+test-sv-SE-modern-005,*,,locale outside requested eight
+test-sv-SE-modern-006,*,,locale outside requested eight
+test-sv-SE-modern-007,*,,locale outside requested eight
+test-sv-SE-modern-008,*,,locale outside requested eight
+test-sv-SE-modern-009,*,,locale outside requested eight
+test-sv-SE-modern-010,*,,locale outside requested eight
+test-sv-SE-modern-011,*,,locale outside requested eight
+test-sv-SE-modern-012,*,,locale outside requested eight
+test-sv-SE-modern-013,*,,locale outside requested eight
+test-sv-SE-modern-014,*,,locale outside requested eight
+test-sv-SE-modern-015,*,,locale outside requested eight
+test-sv-SE-modern-016,*,,locale outside requested eight
+test-sv-SE-modern-017,*,,locale outside requested eight
+test-sv-SE-modern-018,*,,locale outside requested eight
+test-sv-SE-modern-019,*,,locale outside requested eight
+test-sv-SE-compact-000,*,,locale outside requested eight
+test-sv-SE-compact-001,*,,locale outside requested eight
+test-sv-SE-compact-002,*,,locale outside requested eight
+test-sv-SE-compact-003,*,,locale outside requested eight
+test-sv-SE-compact-004,*,,locale outside requested eight
+test-sv-SE-compact-005,*,,locale outside requested eight
+test-sv-SE-compact-006,*,,locale outside requested eight
+test-sv-SE-compact-007,*,,locale outside requested eight
+test-sv-SE-compact-008,*,,locale outside requested eight
+test-sv-SE-compact-009,*,,locale outside requested eight
+test-sv-SE-compact-010,*,,locale outside requested eight
+test-sv-SE-compact-011,*,,locale outside requested eight
+test-sv-SE-compact-012,*,,locale outside requested eight
+test-sv-SE-compact-013,*,,locale outside requested eight
+test-sv-SE-compact-014,*,,locale outside requested eight
+test-sv-SE-compact-015,*,,locale outside requested eight
+test-sv-SE-compact-016,*,,locale outside requested eight
+test-sv-SE-compact-017,*,,locale outside requested eight
+test-sv-SE-compact-018,*,,locale outside requested eight
+test-sv-SE-compact-019,*,,locale outside requested eight
+test-sv-SE-grid-000,*,,locale outside requested eight
+test-sv-SE-grid-001,*,,locale outside requested eight
+test-sv-SE-grid-002,*,,locale outside requested eight
+test-sv-SE-grid-003,*,,locale outside requested eight
+test-sv-SE-grid-004,*,,locale outside requested eight
+test-sv-SE-grid-005,*,,locale outside requested eight
+test-sv-SE-grid-006,*,,locale outside requested eight
+test-sv-SE-grid-007,*,,locale outside requested eight
+test-sv-SE-grid-008,*,,locale outside requested eight
+test-sv-SE-grid-009,*,,locale outside requested eight
+test-sv-SE-grid-010,*,,locale outside requested eight
+test-sv-SE-grid-011,*,,locale outside requested eight
+test-sv-SE-grid-012,*,,locale outside requested eight
+test-sv-SE-grid-013,*,,locale outside requested eight
+test-sv-SE-grid-014,*,,locale outside requested eight
+test-sv-SE-grid-015,*,,locale outside requested eight
+test-sv-SE-grid-016,*,,locale outside requested eight
+test-sv-SE-grid-017,*,,locale outside requested eight
+test-sv-SE-grid-018,*,,locale outside requested eight
+test-sv-SE-grid-019,*,,locale outside requested eight
+test-sv-SE-narrow-000,*,,locale outside requested eight
+test-sv-SE-narrow-001,*,,locale outside requested eight
+test-sv-SE-narrow-002,*,,locale outside requested eight
+test-sv-SE-narrow-003,*,,locale outside requested eight
+test-sv-SE-narrow-004,*,,locale outside requested eight
+test-sv-SE-narrow-005,*,,locale outside requested eight
+test-sv-SE-narrow-006,*,,locale outside requested eight
+test-sv-SE-narrow-007,*,,locale outside requested eight
+test-sv-SE-narrow-008,*,,locale outside requested eight
+test-sv-SE-narrow-009,*,,locale outside requested eight
+test-sv-SE-narrow-010,*,,locale outside requested eight
+test-sv-SE-narrow-011,*,,locale outside requested eight
+test-sv-SE-narrow-012,*,,locale outside requested eight
+test-sv-SE-narrow-013,*,,locale outside requested eight
+test-sv-SE-narrow-014,*,,locale outside requested eight
+test-sv-SE-narrow-015,*,,locale outside requested eight
+test-sv-SE-narrow-016,*,,locale outside requested eight
+test-sv-SE-narrow-017,*,,locale outside requested eight
+test-sv-SE-narrow-018,*,,locale outside requested eight
+test-sv-SE-narrow-019,*,,locale outside requested eight
+test-de-DE-modern-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-modern-012,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-modern-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-modern-016,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-modern-019,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-compact-010,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-compact-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-compact-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-grid-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-grid-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-grid-004,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-grid-009,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-grid-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-grid-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-grid-014,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-narrow-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-narrow-005,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-narrow-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-narrow-012,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-de-DE-narrow-016,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+eurodocbench__test-fr-FR-classic-000,*,,missing glyph on page image
+eurodocbench__test-fr-FR-classic-003,*,,missing glyph on page image
+eurodocbench__test-fr-FR-classic-009,*,,missing glyph on page image
+eurodocbench__test-fr-FR-classic-012,*,,missing glyph on page image
+eurodocbench__test-fr-FR-modern-000,*,,missing glyph on page image
+eurodocbench__test-fr-FR-modern-006,*,,missing glyph on page image
+eurodocbench__test-fr-FR-modern-011,*,,missing glyph on page image
+eurodocbench__test-fr-FR-modern-013,*,,missing glyph on page image
+eurodocbench__test-fr-FR-modern-014,*,,missing glyph on page image
+eurodocbench__test-fr-FR-compact-000,*,,missing glyph on page image
+eurodocbench__test-fr-FR-compact-001,*,,missing glyph on page image
+eurodocbench__test-fr-FR-compact-005,*,,missing glyph on page image
+eurodocbench__test-fr-FR-compact-006,*,,missing glyph on page image
+eurodocbench__test-fr-FR-compact-011,*,,missing glyph on page image
+eurodocbench__test-fr-FR-compact-014,*,,missing glyph on page image
+eurodocbench__test-fr-FR-compact-018,*,,missing glyph on page image
+eurodocbench__test-fr-FR-grid-000,*,,missing glyph on page image
+eurodocbench__test-fr-FR-grid-001,*,,missing glyph on page image
+eurodocbench__test-fr-FR-grid-003,*,,missing glyph on page image
+eurodocbench__test-fr-FR-grid-005,*,,missing glyph on page image
+eurodocbench__test-fr-FR-grid-014,*,,missing glyph on page image
+eurodocbench__test-fr-FR-grid-016,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-000,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-001,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-002,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-003,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-004,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-005,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-006,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-007,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-008,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-009,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-010,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-011,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-012,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-013,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-014,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-015,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-016,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-017,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-018,*,,missing glyph on page image
+eurodocbench__test-fr-FR-narrow-019,*,,missing glyph on page image
+test-nl-NL-modern-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-modern-004,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-modern-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-modern-007,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-modern-009,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-modern-012,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-modern-018,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-compact-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-compact-014,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-compact-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-compact-019,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-grid-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-grid-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-grid-007,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-grid-008,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-narrow-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-narrow-005,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-narrow-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-narrow-016,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-nl-NL-narrow-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-classic-009,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-classic-018,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-modern-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-modern-008,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-modern-012,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-modern-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-modern-018,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-compact-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-compact-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-compact-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-grid-008,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-grid-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-grid-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-grid-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-grid-019,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-narrow-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-narrow-009,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-narrow-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-narrow-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-it-IT-narrow-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-modern-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-modern-008,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-modern-009,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-modern-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-modern-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-modern-016,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-compact-005,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-compact-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-compact-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-compact-012,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-compact-018,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-grid-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-grid-004,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-grid-009,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-grid-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-narrow-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-narrow-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-narrow-007,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-narrow-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-es-ES-narrow-016,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-modern-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-modern-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-modern-007,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-modern-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-modern-012,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-modern-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-compact-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-compact-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-compact-019,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-grid-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-grid-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-grid-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-grid-018,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-narrow-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-narrow-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-narrow-008,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-narrow-010,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-narrow-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-narrow-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pl-PL-narrow-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-classic-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-classic-018,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-modern-010,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-modern-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-modern-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-modern-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-compact-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-compact-005,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-compact-014,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-compact-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-compact-016,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-grid-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-grid-005,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-grid-010,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-grid-012,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-grid-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-narrow-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-narrow-010,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-narrow-013,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-pt-PT-narrow-019,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-cs-CZ-classic-000,*,,locale outside requested eight
+test-cs-CZ-classic-001,*,,locale outside requested eight
+test-cs-CZ-classic-002,*,,locale outside requested eight
+test-cs-CZ-classic-003,*,,locale outside requested eight
+test-cs-CZ-classic-004,*,,locale outside requested eight
+test-cs-CZ-classic-005,*,,locale outside requested eight
+test-cs-CZ-classic-006,*,,locale outside requested eight
+test-cs-CZ-classic-007,*,,locale outside requested eight
+test-cs-CZ-classic-008,*,,locale outside requested eight
+test-cs-CZ-classic-009,*,,locale outside requested eight
+test-cs-CZ-classic-010,*,,locale outside requested eight
+test-cs-CZ-classic-011,*,,locale outside requested eight
+test-cs-CZ-classic-012,*,,locale outside requested eight
+test-cs-CZ-classic-013,*,,locale outside requested eight
+test-cs-CZ-classic-014,*,,locale outside requested eight
+test-cs-CZ-classic-015,*,,locale outside requested eight
+test-cs-CZ-classic-016,*,,locale outside requested eight
+test-cs-CZ-classic-017,*,,locale outside requested eight
+test-cs-CZ-classic-018,*,,locale outside requested eight
+test-cs-CZ-classic-019,*,,locale outside requested eight
+test-cs-CZ-modern-000,*,,locale outside requested eight
+test-cs-CZ-modern-001,*,,locale outside requested eight
+test-cs-CZ-modern-002,*,,locale outside requested eight
+test-cs-CZ-modern-003,*,,locale outside requested eight
+test-cs-CZ-modern-004,*,,locale outside requested eight
+test-cs-CZ-modern-005,*,,locale outside requested eight
+test-cs-CZ-modern-006,*,,locale outside requested eight
+test-cs-CZ-modern-007,*,,locale outside requested eight
+test-cs-CZ-modern-008,*,,locale outside requested eight
+test-cs-CZ-modern-009,*,,locale outside requested eight
+test-cs-CZ-modern-010,*,,locale outside requested eight
+test-cs-CZ-modern-011,*,,locale outside requested eight
+test-cs-CZ-modern-012,*,,locale outside requested eight
+test-cs-CZ-modern-013,*,,locale outside requested eight
+test-cs-CZ-modern-014,*,,locale outside requested eight
+test-cs-CZ-modern-015,*,,locale outside requested eight
+test-cs-CZ-modern-016,*,,locale outside requested eight
+test-cs-CZ-modern-017,*,,locale outside requested eight
+test-cs-CZ-modern-018,*,,locale outside requested eight
+test-cs-CZ-modern-019,*,,locale outside requested eight
+test-cs-CZ-compact-000,*,,locale outside requested eight
+test-cs-CZ-compact-001,*,,locale outside requested eight
+test-cs-CZ-compact-002,*,,locale outside requested eight
+test-cs-CZ-compact-003,*,,locale outside requested eight
+test-cs-CZ-compact-004,*,,locale outside requested eight
+test-cs-CZ-compact-005,*,,locale outside requested eight
+test-cs-CZ-compact-006,*,,locale outside requested eight
+test-cs-CZ-compact-007,*,,locale outside requested eight
+test-cs-CZ-compact-008,*,,locale outside requested eight
+test-cs-CZ-compact-009,*,,locale outside requested eight
+test-cs-CZ-compact-010,*,,locale outside requested eight
+test-cs-CZ-compact-011,*,,locale outside requested eight
+test-cs-CZ-compact-012,*,,locale outside requested eight
+test-cs-CZ-compact-013,*,,locale outside requested eight
+test-cs-CZ-compact-014,*,,locale outside requested eight
+test-cs-CZ-compact-015,*,,locale outside requested eight
+test-cs-CZ-compact-016,*,,locale outside requested eight
+test-cs-CZ-compact-017,*,,locale outside requested eight
+test-cs-CZ-compact-018,*,,locale outside requested eight
+test-cs-CZ-compact-019,*,,locale outside requested eight
+test-cs-CZ-grid-000,*,,locale outside requested eight
+test-cs-CZ-grid-001,*,,locale outside requested eight
+test-cs-CZ-grid-002,*,,locale outside requested eight
+test-cs-CZ-grid-003,*,,locale outside requested eight
+test-cs-CZ-grid-004,*,,locale outside requested eight
+test-cs-CZ-grid-005,*,,locale outside requested eight
+test-cs-CZ-grid-006,*,,locale outside requested eight
+test-cs-CZ-grid-007,*,,locale outside requested eight
+test-cs-CZ-grid-008,*,,locale outside requested eight
+test-cs-CZ-grid-009,*,,locale outside requested eight
+test-cs-CZ-grid-010,*,,locale outside requested eight
+test-cs-CZ-grid-011,*,,locale outside requested eight
+test-cs-CZ-grid-012,*,,locale outside requested eight
+test-cs-CZ-grid-013,*,,locale outside requested eight
+test-cs-CZ-grid-014,*,,locale outside requested eight
+test-cs-CZ-grid-015,*,,locale outside requested eight
+test-cs-CZ-grid-016,*,,locale outside requested eight
+test-cs-CZ-grid-017,*,,locale outside requested eight
+test-cs-CZ-grid-018,*,,locale outside requested eight
+test-cs-CZ-grid-019,*,,locale outside requested eight
+test-cs-CZ-narrow-000,*,,locale outside requested eight
+test-cs-CZ-narrow-001,*,,locale outside requested eight
+test-cs-CZ-narrow-002,*,,locale outside requested eight
+test-cs-CZ-narrow-003,*,,locale outside requested eight
+test-cs-CZ-narrow-004,*,,locale outside requested eight
+test-cs-CZ-narrow-005,*,,locale outside requested eight
+test-cs-CZ-narrow-006,*,,locale outside requested eight
+test-cs-CZ-narrow-007,*,,locale outside requested eight
+test-cs-CZ-narrow-008,*,,locale outside requested eight
+test-cs-CZ-narrow-009,*,,locale outside requested eight
+test-cs-CZ-narrow-010,*,,locale outside requested eight
+test-cs-CZ-narrow-011,*,,locale outside requested eight
+test-cs-CZ-narrow-012,*,,locale outside requested eight
+test-cs-CZ-narrow-013,*,,locale outside requested eight
+test-cs-CZ-narrow-014,*,,locale outside requested eight
+test-cs-CZ-narrow-015,*,,locale outside requested eight
+test-cs-CZ-narrow-016,*,,locale outside requested eight
+test-cs-CZ-narrow-017,*,,locale outside requested eight
+test-cs-CZ-narrow-018,*,,locale outside requested eight
+test-cs-CZ-narrow-019,*,,locale outside requested eight
+test-da-DK-classic-000,*,,locale outside requested eight
+test-da-DK-classic-001,*,,locale outside requested eight
+test-da-DK-classic-002,*,,locale outside requested eight
+test-da-DK-classic-003,*,,locale outside requested eight
+test-da-DK-classic-004,*,,locale outside requested eight
+test-da-DK-classic-005,*,,locale outside requested eight
+test-da-DK-classic-006,*,,locale outside requested eight
+test-da-DK-classic-007,*,,locale outside requested eight
+test-da-DK-classic-008,*,,locale outside requested eight
+test-da-DK-classic-009,*,,locale outside requested eight
+test-da-DK-classic-010,*,,locale outside requested eight
+test-da-DK-classic-011,*,,locale outside requested eight
+test-da-DK-classic-012,*,,locale outside requested eight
+test-da-DK-classic-013,*,,locale outside requested eight
+test-da-DK-classic-014,*,,locale outside requested eight
+test-da-DK-classic-015,*,,locale outside requested eight
+test-da-DK-classic-016,*,,locale outside requested eight
+test-da-DK-classic-017,*,,locale outside requested eight
+test-da-DK-classic-018,*,,locale outside requested eight
+test-da-DK-classic-019,*,,locale outside requested eight
+test-da-DK-modern-000,*,,locale outside requested eight
+test-da-DK-modern-001,*,,locale outside requested eight
+test-da-DK-modern-002,*,,locale outside requested eight
+test-da-DK-modern-003,*,,locale outside requested eight
+test-da-DK-modern-004,*,,locale outside requested eight
+test-da-DK-modern-005,*,,locale outside requested eight
+test-da-DK-modern-006,*,,locale outside requested eight
+test-da-DK-modern-007,*,,locale outside requested eight
+test-da-DK-modern-008,*,,locale outside requested eight
+test-da-DK-modern-009,*,,locale outside requested eight
+test-da-DK-modern-010,*,,locale outside requested eight
+test-da-DK-modern-011,*,,locale outside requested eight
+test-da-DK-modern-012,*,,locale outside requested eight
+test-da-DK-modern-013,*,,locale outside requested eight
+test-da-DK-modern-014,*,,locale outside requested eight
+test-da-DK-modern-015,*,,locale outside requested eight
+test-da-DK-modern-016,*,,locale outside requested eight
+test-da-DK-modern-017,*,,locale outside requested eight
+test-da-DK-modern-018,*,,locale outside requested eight
+test-da-DK-modern-019,*,,locale outside requested eight
+test-da-DK-compact-000,*,,locale outside requested eight
+test-da-DK-compact-001,*,,locale outside requested eight
+test-da-DK-compact-002,*,,locale outside requested eight
+test-da-DK-compact-003,*,,locale outside requested eight
+test-da-DK-compact-004,*,,locale outside requested eight
+test-da-DK-compact-005,*,,locale outside requested eight
+test-da-DK-compact-006,*,,locale outside requested eight
+test-da-DK-compact-007,*,,locale outside requested eight
+test-da-DK-compact-008,*,,locale outside requested eight
+test-da-DK-compact-009,*,,locale outside requested eight
+test-da-DK-compact-010,*,,locale outside requested eight
+test-da-DK-compact-011,*,,locale outside requested eight
+test-da-DK-compact-012,*,,locale outside requested eight
+test-da-DK-compact-013,*,,locale outside requested eight
+test-da-DK-compact-014,*,,locale outside requested eight
+test-da-DK-compact-015,*,,locale outside requested eight
+test-da-DK-compact-016,*,,locale outside requested eight
+test-da-DK-compact-017,*,,locale outside requested eight
+test-da-DK-compact-018,*,,locale outside requested eight
+test-da-DK-compact-019,*,,locale outside requested eight
+test-da-DK-grid-000,*,,locale outside requested eight
+test-da-DK-grid-001,*,,locale outside requested eight
+test-da-DK-grid-002,*,,locale outside requested eight
+test-da-DK-grid-003,*,,locale outside requested eight
+test-da-DK-grid-004,*,,locale outside requested eight
+test-da-DK-grid-005,*,,locale outside requested eight
+test-da-DK-grid-006,*,,locale outside requested eight
+test-da-DK-grid-007,*,,locale outside requested eight
+test-da-DK-grid-008,*,,locale outside requested eight
+test-da-DK-grid-009,*,,locale outside requested eight
+test-da-DK-grid-010,*,,locale outside requested eight
+test-da-DK-grid-011,*,,locale outside requested eight
+test-da-DK-grid-012,*,,locale outside requested eight
+test-da-DK-grid-013,*,,locale outside requested eight
+test-da-DK-grid-014,*,,locale outside requested eight
+test-da-DK-grid-015,*,,locale outside requested eight
+test-da-DK-grid-016,*,,locale outside requested eight
+test-da-DK-grid-017,*,,locale outside requested eight
+test-da-DK-grid-018,*,,locale outside requested eight
+test-da-DK-grid-019,*,,locale outside requested eight
+test-da-DK-narrow-000,*,,locale outside requested eight
+test-da-DK-narrow-001,*,,locale outside requested eight
+test-da-DK-narrow-002,*,,locale outside requested eight
+test-da-DK-narrow-003,*,,locale outside requested eight
+test-da-DK-narrow-004,*,,locale outside requested eight
+test-da-DK-narrow-005,*,,locale outside requested eight
+test-da-DK-narrow-006,*,,locale outside requested eight
+test-da-DK-narrow-007,*,,locale outside requested eight
+test-da-DK-narrow-008,*,,locale outside requested eight
+test-da-DK-narrow-009,*,,locale outside requested eight
+test-da-DK-narrow-010,*,,locale outside requested eight
+test-da-DK-narrow-011,*,,locale outside requested eight
+test-da-DK-narrow-012,*,,locale outside requested eight
+test-da-DK-narrow-013,*,,locale outside requested eight
+test-da-DK-narrow-014,*,,locale outside requested eight
+test-da-DK-narrow-015,*,,locale outside requested eight
+test-da-DK-narrow-016,*,,locale outside requested eight
+test-da-DK-narrow-017,*,,locale outside requested eight
+test-da-DK-narrow-018,*,,locale outside requested eight
+test-da-DK-narrow-019,*,,locale outside requested eight
+test-en-IE-classic-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-modern-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-modern-004,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-modern-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-modern-009,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-modern-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-modern-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-modern-018,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-compact-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-compact-006,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-compact-007,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-compact-008,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-compact-011,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-compact-015,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-compact-017,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-grid-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-grid-019,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-narrow-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-narrow-004,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+test-en-IE-narrow-018,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-fi-FI-classic-000,*,,locale outside requested eight
+dev-fi-FI-classic-001,*,,locale outside requested eight
+dev-fi-FI-classic-002,*,,locale outside requested eight
+dev-fi-FI-classic-003,*,,locale outside requested eight
+dev-fi-FI-modern-000,*,,locale outside requested eight
+dev-fi-FI-modern-001,*,,locale outside requested eight
+dev-fi-FI-modern-002,*,,locale outside requested eight
+dev-fi-FI-modern-003,*,,locale outside requested eight
+dev-fi-FI-compact-000,*,,locale outside requested eight
+dev-fi-FI-compact-001,*,,locale outside requested eight
+dev-fi-FI-compact-002,*,,locale outside requested eight
+dev-fi-FI-compact-003,*,,locale outside requested eight
+dev-fi-FI-grid-000,*,,locale outside requested eight
+dev-fi-FI-grid-001,*,,locale outside requested eight
+dev-fi-FI-grid-002,*,,locale outside requested eight
+dev-fi-FI-grid-003,*,,locale outside requested eight
+dev-fi-FI-narrow-000,*,,locale outside requested eight
+dev-fi-FI-narrow-001,*,,locale outside requested eight
+dev-fi-FI-narrow-002,*,,locale outside requested eight
+dev-fi-FI-narrow-003,*,,locale outside requested eight
+dev-sv-SE-classic-000,*,,locale outside requested eight
+dev-sv-SE-classic-001,*,,locale outside requested eight
+dev-sv-SE-classic-002,*,,locale outside requested eight
+dev-sv-SE-classic-003,*,,locale outside requested eight
+dev-sv-SE-modern-000,*,,locale outside requested eight
+dev-sv-SE-modern-001,*,,locale outside requested eight
+dev-sv-SE-modern-002,*,,locale outside requested eight
+dev-sv-SE-modern-003,*,,locale outside requested eight
+dev-sv-SE-compact-000,*,,locale outside requested eight
+dev-sv-SE-compact-001,*,,locale outside requested eight
+dev-sv-SE-compact-002,*,,locale outside requested eight
+dev-sv-SE-compact-003,*,,locale outside requested eight
+dev-sv-SE-grid-000,*,,locale outside requested eight
+dev-sv-SE-grid-001,*,,locale outside requested eight
+dev-sv-SE-grid-002,*,,locale outside requested eight
+dev-sv-SE-grid-003,*,,locale outside requested eight
+dev-sv-SE-narrow-000,*,,locale outside requested eight
+dev-sv-SE-narrow-001,*,,locale outside requested eight
+dev-sv-SE-narrow-002,*,,locale outside requested eight
+dev-sv-SE-narrow-003,*,,locale outside requested eight
+dev-de-DE-classic-000,*,,dev not used for this locale
+dev-de-DE-classic-001,*,,dev not used for this locale
+dev-de-DE-classic-002,*,,dev not used for this locale
+dev-de-DE-classic-003,*,,dev not used for this locale
+dev-de-DE-modern-000,*,,dev not used for this locale
+dev-de-DE-modern-001,*,,dev not used for this locale
+dev-de-DE-modern-002,*,,dev not used for this locale
+dev-de-DE-modern-003,*,,dev not used for this locale
+dev-de-DE-compact-000,*,,dev not used for this locale
+dev-de-DE-compact-001,*,,dev not used for this locale
+dev-de-DE-compact-002,*,,dev not used for this locale
+dev-de-DE-compact-003,*,,dev not used for this locale
+dev-de-DE-grid-000,*,,dev not used for this locale
+dev-de-DE-grid-001,*,,dev not used for this locale
+dev-de-DE-grid-002,*,,dev not used for this locale
+dev-de-DE-grid-003,*,,dev not used for this locale
+dev-de-DE-narrow-000,*,,dev not used for this locale
+dev-de-DE-narrow-001,*,,dev not used for this locale
+dev-de-DE-narrow-002,*,,dev not used for this locale
+dev-de-DE-narrow-003,*,,dev not used for this locale
+eurodocbench__dev-fr-FR-classic-001,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-classic-002,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-modern-000,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-modern-002,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-modern-003,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-compact-000,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-compact-001,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-compact-002,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-grid-000,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-narrow-000,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-narrow-001,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-narrow-002,*,,missing glyph on page image
+eurodocbench__dev-fr-FR-narrow-003,*,,missing glyph on page image
+dev-nl-NL-classic-000,*,,dev not used for this locale
+dev-nl-NL-classic-001,*,,dev not used for this locale
+dev-nl-NL-classic-002,*,,dev not used for this locale
+dev-nl-NL-classic-003,*,,dev not used for this locale
+dev-nl-NL-modern-000,*,,dev not used for this locale
+dev-nl-NL-modern-001,*,,dev not used for this locale
+dev-nl-NL-modern-002,*,,dev not used for this locale
+dev-nl-NL-modern-003,*,,dev not used for this locale
+dev-nl-NL-compact-000,*,,dev not used for this locale
+dev-nl-NL-compact-001,*,,dev not used for this locale
+dev-nl-NL-compact-002,*,,dev not used for this locale
+dev-nl-NL-compact-003,*,,dev not used for this locale
+dev-nl-NL-grid-000,*,,dev not used for this locale
+dev-nl-NL-grid-001,*,,dev not used for this locale
+dev-nl-NL-grid-002,*,,dev not used for this locale
+dev-nl-NL-grid-003,*,,dev not used for this locale
+dev-nl-NL-narrow-000,*,,dev not used for this locale
+dev-nl-NL-narrow-001,*,,dev not used for this locale
+dev-nl-NL-narrow-002,*,,dev not used for this locale
+dev-nl-NL-narrow-003,*,,dev not used for this locale
+dev-it-IT-classic-000,*,,dev not used for this locale
+dev-it-IT-classic-001,*,,dev not used for this locale
+dev-it-IT-classic-002,*,,dev not used for this locale
+dev-it-IT-classic-003,*,,dev not used for this locale
+dev-it-IT-modern-000,*,,dev not used for this locale
+dev-it-IT-modern-001,*,,dev not used for this locale
+dev-it-IT-modern-002,*,,dev not used for this locale
+dev-it-IT-modern-003,*,,dev not used for this locale
+dev-it-IT-compact-000,*,,dev not used for this locale
+dev-it-IT-compact-001,*,,dev not used for this locale
+dev-it-IT-compact-002,*,,dev not used for this locale
+dev-it-IT-compact-003,*,,dev not used for this locale
+dev-it-IT-grid-000,*,,dev not used for this locale
+dev-it-IT-grid-001,*,,dev not used for this locale
+dev-it-IT-grid-002,*,,dev not used for this locale
+dev-it-IT-grid-003,*,,dev not used for this locale
+dev-it-IT-narrow-000,*,,dev not used for this locale
+dev-it-IT-narrow-001,*,,dev not used for this locale
+dev-it-IT-narrow-002,*,,dev not used for this locale
+dev-it-IT-narrow-003,*,,dev not used for this locale
+dev-es-ES-classic-000,*,,dev not used for this locale
+dev-es-ES-classic-001,*,,dev not used for this locale
+dev-es-ES-classic-002,*,,dev not used for this locale
+dev-es-ES-classic-003,*,,dev not used for this locale
+dev-es-ES-modern-000,*,,dev not used for this locale
+dev-es-ES-modern-001,*,,dev not used for this locale
+dev-es-ES-modern-002,*,,dev not used for this locale
+dev-es-ES-modern-003,*,,dev not used for this locale
+dev-es-ES-compact-000,*,,dev not used for this locale
+dev-es-ES-compact-001,*,,dev not used for this locale
+dev-es-ES-compact-002,*,,dev not used for this locale
+dev-es-ES-compact-003,*,,dev not used for this locale
+dev-es-ES-grid-000,*,,dev not used for this locale
+dev-es-ES-grid-001,*,,dev not used for this locale
+dev-es-ES-grid-002,*,,dev not used for this locale
+dev-es-ES-grid-003,*,,dev not used for this locale
+dev-es-ES-narrow-000,*,,dev not used for this locale
+dev-es-ES-narrow-001,*,,dev not used for this locale
+dev-es-ES-narrow-002,*,,dev not used for this locale
+dev-es-ES-narrow-003,*,,dev not used for this locale
+dev-pl-PL-classic-000,*,,dev not used for this locale
+dev-pl-PL-classic-001,*,,dev not used for this locale
+dev-pl-PL-classic-002,*,,dev not used for this locale
+dev-pl-PL-classic-003,*,,dev not used for this locale
+dev-pl-PL-modern-000,*,,dev not used for this locale
+dev-pl-PL-modern-001,*,,dev not used for this locale
+dev-pl-PL-modern-002,*,,dev not used for this locale
+dev-pl-PL-modern-003,*,,dev not used for this locale
+dev-pl-PL-compact-000,*,,dev not used for this locale
+dev-pl-PL-compact-001,*,,dev not used for this locale
+dev-pl-PL-compact-002,*,,dev not used for this locale
+dev-pl-PL-compact-003,*,,dev not used for this locale
+dev-pl-PL-grid-000,*,,dev not used for this locale
+dev-pl-PL-grid-001,*,,dev not used for this locale
+dev-pl-PL-grid-002,*,,dev not used for this locale
+dev-pl-PL-grid-003,*,,dev not used for this locale
+dev-pl-PL-narrow-000,*,,dev not used for this locale
+dev-pl-PL-narrow-001,*,,dev not used for this locale
+dev-pl-PL-narrow-002,*,,dev not used for this locale
+dev-pl-PL-narrow-003,*,,dev not used for this locale
+dev-pt-PT-classic-000,*,,dev not used for this locale
+dev-pt-PT-classic-001,*,,dev not used for this locale
+dev-pt-PT-classic-002,*,,dev not used for this locale
+dev-pt-PT-classic-003,*,,dev not used for this locale
+dev-pt-PT-modern-000,*,,dev not used for this locale
+dev-pt-PT-modern-001,*,,dev not used for this locale
+dev-pt-PT-modern-002,*,,dev not used for this locale
+dev-pt-PT-modern-003,*,,dev not used for this locale
+dev-pt-PT-compact-000,*,,dev not used for this locale
+dev-pt-PT-compact-001,*,,dev not used for this locale
+dev-pt-PT-compact-002,*,,dev not used for this locale
+dev-pt-PT-compact-003,*,,dev not used for this locale
+dev-pt-PT-grid-000,*,,dev not used for this locale
+dev-pt-PT-grid-001,*,,dev not used for this locale
+dev-pt-PT-grid-002,*,,dev not used for this locale
+dev-pt-PT-grid-003,*,,dev not used for this locale
+dev-pt-PT-narrow-000,*,,dev not used for this locale
+dev-pt-PT-narrow-001,*,,dev not used for this locale
+dev-pt-PT-narrow-002,*,,dev not used for this locale
+dev-pt-PT-narrow-003,*,,dev not used for this locale
+dev-cs-CZ-classic-000,*,,locale outside requested eight
+dev-cs-CZ-classic-001,*,,locale outside requested eight
+dev-cs-CZ-classic-002,*,,locale outside requested eight
+dev-cs-CZ-classic-003,*,,locale outside requested eight
+dev-cs-CZ-modern-000,*,,locale outside requested eight
+dev-cs-CZ-modern-001,*,,locale outside requested eight
+dev-cs-CZ-modern-002,*,,locale outside requested eight
+dev-cs-CZ-modern-003,*,,locale outside requested eight
+dev-cs-CZ-compact-000,*,,locale outside requested eight
+dev-cs-CZ-compact-001,*,,locale outside requested eight
+dev-cs-CZ-compact-002,*,,locale outside requested eight
+dev-cs-CZ-compact-003,*,,locale outside requested eight
+dev-cs-CZ-grid-000,*,,locale outside requested eight
+dev-cs-CZ-grid-001,*,,locale outside requested eight
+dev-cs-CZ-grid-002,*,,locale outside requested eight
+dev-cs-CZ-grid-003,*,,locale outside requested eight
+dev-cs-CZ-narrow-000,*,,locale outside requested eight
+dev-cs-CZ-narrow-001,*,,locale outside requested eight
+dev-cs-CZ-narrow-002,*,,locale outside requested eight
+dev-cs-CZ-narrow-003,*,,locale outside requested eight
+dev-da-DK-classic-000,*,,locale outside requested eight
+dev-da-DK-classic-001,*,,locale outside requested eight
+dev-da-DK-classic-002,*,,locale outside requested eight
+dev-da-DK-classic-003,*,,locale outside requested eight
+dev-da-DK-modern-000,*,,locale outside requested eight
+dev-da-DK-modern-001,*,,locale outside requested eight
+dev-da-DK-modern-002,*,,locale outside requested eight
+dev-da-DK-modern-003,*,,locale outside requested eight
+dev-da-DK-compact-000,*,,locale outside requested eight
+dev-da-DK-compact-001,*,,locale outside requested eight
+dev-da-DK-compact-002,*,,locale outside requested eight
+dev-da-DK-compact-003,*,,locale outside requested eight
+dev-da-DK-grid-000,*,,locale outside requested eight
+dev-da-DK-grid-001,*,,locale outside requested eight
+dev-da-DK-grid-002,*,,locale outside requested eight
+dev-da-DK-grid-003,*,,locale outside requested eight
+dev-da-DK-narrow-000,*,,locale outside requested eight
+dev-da-DK-narrow-001,*,,locale outside requested eight
+dev-da-DK-narrow-002,*,,locale outside requested eight
+dev-da-DK-narrow-003,*,,locale outside requested eight
+dev-en-IE-classic-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-classic-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-classic-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-classic-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-modern-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-modern-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-modern-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-modern-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-compact-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-compact-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-compact-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-compact-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-grid-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-grid-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-grid-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-grid-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-narrow-000,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-narrow-001,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-narrow-002,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+dev-en-IE-narrow-003,*,,"not selected: clean test priority, then dev; single-rate then multi-rate, id order"
+eurodocbench__test-de-DE-grid-008,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-de-DE-grid-012,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-de-DE-grid-015,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-de-DE-narrow-009,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-de-DE-narrow-019,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-de-DE-classic-000,total_tax,11346.88,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-classic-001,total_tax,29410.54,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-classic-005,total_tax,10283.91,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-classic-008,total_tax,2595.16,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-classic-014,total_tax,4059.58,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-classic-015,total_tax,6774.87,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-classic-018,total_tax,2392.77,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-compact-000,total_tax,13029.63,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-compact-001,total_tax,12811.54,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-de-DE-compact-008,total_tax,11198.87,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-grid-004,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-fr-FR-classic-001,total_tax,9638.03,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-classic-002,total_tax,1138.69,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-classic-004,total_tax,16009.52,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-classic-014,total_tax,14842.66,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-classic-015,total_tax,10578.05,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-classic-016,total_tax,14572.69,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-classic-017,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-fr-FR-classic-017,total_tax,3491.18,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-classic-019,total_tax,553.55,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-compact-003,total_tax,347.22,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-compact-004,total_tax,529.11,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-compact-012,total_tax,6917.40,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-compact-013,total_tax,10203.13,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-grid-010,total_tax,18476.36,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-grid-018,total_tax,17269.78,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-modern-007,total_tax,2031.31,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-modern-009,total_tax,9003.01,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-modern-010,total_tax,2652.24,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-modern-012,total_tax,8922.35,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-fr-FR-modern-019,total_tax,1383.95,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__dev-fr-FR-classic-000,total_tax,30370.19,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__dev-fr-FR-classic-003,total_tax,15867.38,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__dev-fr-FR-grid-002,total_tax,8303.75,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-it-IT-compact-017,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-it-IT-grid-003,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-it-IT-grid-005,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-it-IT-grid-006,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-it-IT-grid-010,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-it-IT-grid-016,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-it-IT-narrow-003,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-it-IT-narrow-010,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-it-IT-classic-000,total_tax,371.46,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-it-IT-classic-006,total_tax,11331.21,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-es-ES-grid-005,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-es-ES-classic-004,total_tax,2169.64,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-es-ES-classic-013,total_tax,2284.92,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-es-ES-classic-014,total_tax,11493.38,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-es-ES-classic-016,total_tax,14068.50,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-es-ES-classic-019,total_tax,9179.17,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-es-ES-compact-002,total_tax,9919.94,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-nl-NL-classic-005,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-nl-NL-classic-011,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-nl-NL-compact-001,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-nl-NL-grid-002,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-nl-NL-grid-011,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-nl-NL-grid-014,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-nl-NL-modern-003,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-nl-NL-modern-014,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-nl-NL-modern-017,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-nl-NL-classic-004,total_tax,12569.93,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-nl-NL-classic-006,total_tax,17237.76,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-nl-NL-classic-013,total_tax,7561.55,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-nl-NL-classic-019,total_tax,3765.41,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-nl-NL-compact-006,total_tax,16539.33,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-nl-NL-compact-007,total_tax,7744.57,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pl-PL-grid-004,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-pl-PL-grid-006,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-pl-PL-grid-008,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-pl-PL-grid-016,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-pl-PL-narrow-014,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-pl-PL-classic-002,total_tax,137945.58,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pl-PL-classic-010,total_tax,197967.87,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pl-PL-classic-013,total_tax,46236.79,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pl-PL-classic-014,total_tax,10064.40,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pl-PL-classic-016,total_tax,108175.74,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pl-PL-classic-018,total_tax,40792.99,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pl-PL-compact-003,total_tax,46211.14,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pl-PL-compact-010,total_tax,51532.86,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-pt-PT-grid-002,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-pt-PT-grid-008,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-en-IE-classic-007,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-en-IE-grid-001,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-en-IE-grid-005,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-en-IE-grid-006,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-en-IE-grid-007,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-en-IE-grid-010,due_date,,gold null but grid prints a due-date label/dash; conservative no-null policy
+eurodocbench__test-en-IE-narrow-001,seller_iban,,null not established by both renderer omission and text absence; not scored
+eurodocbench__test-en-IE-classic-003,total_tax,2629.18,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-en-IE-classic-010,total_tax,1466.67,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-en-IE-classic-013,total_tax,15711.24,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eurodocbench__test-en-IE-classic-015,total_tax,40973.37,"multiple VAT rates: aggregate total_tax is not scored, even if coincidentally present elsewhere"
+eval-000000,*,,locale not requested
+eval-000004,*,,locale not requested
+eval-000005,*,,locale not requested
+eval-000009,*,,locale not requested
+eval-000011,*,,locale not requested
+eval-000014,*,,locale not requested
+eval-000015,*,,locale not requested
+eval-000016,*,,locale not requested
+eval-000017,*,,locale not requested
+eval-000022,*,,locale not requested
+eval-000023,*,,locale not requested
+eval-000024,*,,locale not requested
+eval-000026,*,,locale not requested
+eval-000027,*,,locale not requested
+eval-000028,*,,locale not requested
+eval-000031,*,,locale not requested
+eval-000037,*,,locale not requested
+eval-000040,*,,locale not requested
+eval-000042,*,,locale not requested
+eval-000044,*,,locale not requested
+eval-000045,*,,locale not requested
+eval-000046,*,,locale not requested
+eval-000048,*,,already in frozen final snapshot
+eval-000049,*,,locale not requested
+eval-000051,*,,locale not requested
+eval-000052,*,,locale not requested
+eval-000053,*,,locale not requested
+eval-000055,*,,already in frozen final snapshot
+eval-000056,*,,locale not requested
+eval-000057,*,,locale not requested
+eval-000058,*,,locale not requested
+eval-000059,*,,locale not requested
+eval-000060,*,,locale not requested
+eval-000061,*,,locale not requested
+eval-000062,*,,locale not requested
+eval-000064,*,,locale not requested
+eval-000066,*,,locale not requested
+eval-000067,*,,locale not requested
+eval-000068,*,,locale not requested
+eval-000070,*,,locale not requested
+eval-000071,*,,locale not requested
+eval-000074,*,,locale not requested
+eval-000076,*,,locale not requested
+eval-000077,*,,already in frozen final snapshot
+eval-000078,*,,locale not requested
+eval-000079,*,,locale not requested
+eval-000081,*,,already in frozen final snapshot
+eval-000082,*,,locale not requested
+eval-000083,*,,locale not requested
+eval-000084,*,,locale not requested
+eval-000085,*,,locale not requested
+eval-000086,*,,locale not requested
+eval-000088,*,,locale not requested
+eval-000089,*,,already in frozen final snapshot
+eval-000092,*,,locale not requested
+eval-000093,*,,locale not requested
+eval-000094,*,,already in frozen final snapshot
+eval-000095,*,,locale not requested
+eval-000096,*,,locale not requested
+eval-000097,*,,already in frozen final snapshot
+eval-000098,*,,locale not requested
+eval-000099,*,,locale not requested
+eval-000100,*,,locale not requested
+eval-000106,*,,locale not requested
+eval-000107,*,,locale not requested
+eval-000109,*,,locale not requested
+eval-000110,*,,locale not requested
+eval-000111,*,,already in frozen final snapshot
+eval-000112,*,,locale not requested
+eval-000113,*,,locale not requested
+eval-000114,*,,already in frozen final snapshot
+eval-000115,*,,locale not requested
+eval-000116,*,,locale not requested
+eval-000119,*,,locale not requested
+eval-000120,*,,locale not requested
+eval-000121,*,,locale not requested
+eval-000122,*,,locale not requested
+eval-000124,*,,locale not requested
+eval-000125,*,,locale not requested
+eval-000126,*,,locale not requested
+eval-000127,*,,locale not requested
+eval-000128,*,,locale not requested
+eval-000129,*,,locale not requested
+eval-000132,*,,locale not requested
+eval-000133,*,,locale not requested
+eval-000135,*,,already in frozen final snapshot
+eval-000137,*,,locale not requested
+eval-000138,*,,locale not requested
+eval-000139,*,,locale not requested
+eval-000140,*,,locale not requested
+eval-000141,*,,locale not requested
+eval-000143,*,,already in frozen final snapshot
+eval-000144,*,,locale not requested
+eval-000145,*,,already in frozen final snapshot
+eval-000147,*,,locale not requested
+eval-000148,*,,locale not requested
+eval-000151,*,,locale not requested
+eval-000152,*,,locale not requested
+eval-000153,*,,locale not requested
+eval-000155,*,,already in frozen final snapshot
+eval-000156,*,,locale not requested
+eval-000158,*,,locale not requested
+eval-000159,*,,already in frozen final snapshot
+eval-000160,*,,locale not requested
+eval-000161,*,,already in frozen final snapshot
+eval-000163,*,,already in frozen final snapshot
+eval-000166,*,,locale not requested
+eval-000167,*,,locale not requested
+eval-000169,*,,locale not requested
+eval-000170,*,,locale not requested
+eval-000173,*,,already in frozen final snapshot
+eval-000174,*,,locale not requested
+eval-000176,*,,locale not requested
+eval-000177,*,,locale not requested
+eval-000178,*,,locale not requested
+eval-000179,*,,locale not requested
+eval-000180,*,,locale not requested
+eval-000183,*,,locale not requested
+eval-000184,*,,already in frozen final snapshot
+eval-000186,*,,already in frozen final snapshot
+eval-000187,*,,locale not requested
+eval-000188,*,,locale not requested
+eval-000189,*,,locale not requested
+eval-000190,*,,locale not requested
+eval-000191,*,,locale not requested
+eval-000192,*,,locale not requested
+eval-000201,*,,locale not requested
+eval-000203,*,,locale not requested
+eval-000204,*,,locale not requested
+eval-000205,*,,locale not requested
+eval-000207,*,,locale not requested
+eval-000208,*,,locale not requested
+eval-000209,*,,locale not requested
+eval-000210,*,,locale not requested
+eval-000211,*,,locale not requested
+eval-000212,*,,locale not requested
+eval-000214,*,,locale not requested
+eval-000215,*,,locale not requested
+eval-000216,*,,locale not requested
+eval-000222,*,,locale not requested
+eval-000225,*,,locale not requested
+eval-000226,*,,locale not requested
+eval-000227,*,,locale not requested
+eval-000228,*,,already in frozen final snapshot
+eval-000230,*,,locale not requested
+eval-000231,*,,locale not requested
+eval-000233,*,,locale not requested
+eval-000234,*,,locale not requested
+eval-000235,*,,locale not requested
+eval-000238,*,,locale not requested
+eval-000239,*,,locale not requested
+eval-000240,*,,locale not requested
+eval-000241,*,,locale not requested
+eval-000242,*,,locale not requested
+eval-000243,*,,locale not requested
+eval-000244,*,,locale not requested
+eval-000246,*,,locale not requested
+eval-000248,*,,locale not requested
+eval-000251,*,,locale not requested
+eval-000254,*,,locale not requested
+eval-000255,*,,locale not requested
+eval-000258,*,,locale not requested
+eval-000260,*,,locale not requested
+eval-000261,*,,locale not requested
+eval-000264,*,,locale not requested
+eval-000266,*,,locale not requested
+eval-000267,*,,locale not requested
+eval-000272,*,,already in frozen final snapshot
+eval-000274,*,,already in frozen final snapshot
+eval-000276,*,,locale not requested
+eval-000277,*,,locale not requested
+eval-000282,*,,locale not requested
+eval-000283,*,,locale not requested
+eval-000286,*,,already in frozen final snapshot
+eval-000287,*,,locale not requested
+eval-000289,*,,locale not requested
+eval-000290,*,,already in frozen final snapshot
+eval-000291,*,,locale not requested
+eval-000292,*,,locale not requested
+eval-000294,*,,already in frozen final snapshot
+eval-000299,*,,locale not requested
+eval-000301,*,,locale not requested
+eval-000303,*,,locale not requested
+eval-000304,*,,locale not requested
+eval-000307,*,,locale not requested
+eval-000311,*,,locale not requested
+eval-000314,*,,locale not requested
+eval-000315,*,,locale not requested
+eval-000316,*,,locale not requested
+eval-000317,*,,locale not requested
+eval-000318,*,,locale not requested
+eval-000319,*,,already in frozen final snapshot
+eval-000323,*,,locale not requested
+eval-000325,*,,locale not requested
+eval-000327,*,,locale not requested
+eval-000328,*,,locale not requested
+eval-000329,*,,locale not requested
+eval-000330,*,,locale not requested
+eval-000331,*,,locale not requested
+eval-000332,*,,locale not requested
+eval-000335,*,,locale not requested
+eval-000338,*,,locale not requested
+eval-000339,*,,locale not requested
+eval-000340,*,,locale not requested
+eval-000341,*,,locale not requested
+eval-000344,*,,locale not requested
+eval-000345,*,,locale not requested
+eval-000346,*,,locale not requested
+eval-000347,*,,locale not requested
+eval-000348,*,,locale not requested
+eval-000349,*,,locale not requested
+eval-000351,*,,locale not requested
+eval-000352,*,,locale not requested
+eval-000353,*,,already in frozen final snapshot
+eval-000355,*,,locale not requested
+eval-000356,*,,locale not requested
+eval-000357,*,,already in frozen final snapshot
+eval-000358,*,,locale not requested
+eval-000359,*,,locale not requested
+eval-000360,*,,already in frozen final snapshot
+eval-000362,*,,locale not requested
+eval-000365,*,,locale not requested
+eval-000366,*,,locale not requested
+eval-000367,*,,locale not requested
+eval-000368,*,,locale not requested
+eval-000369,*,,locale not requested
+eval-000370,*,,locale not requested
+eval-000371,*,,locale not requested
+eval-000372,*,,locale not requested
+eval-000373,*,,locale not requested
+eval-000374,*,,locale not requested
+eval-000375,*,,already in frozen final snapshot
+eval-000376,*,,locale not requested
+eval-000377,*,,locale not requested
+eval-000378,*,,already in frozen final snapshot
+eval-000379,*,,already in frozen final snapshot
+eval-000380,*,,locale not requested
+eval-000381,*,,locale not requested
+eval-000383,*,,locale not requested
+eval-000384,*,,locale not requested
+eval-000385,*,,already in frozen final snapshot
+eval-000388,*,,locale not requested
+eval-000390,*,,locale not requested
+eval-000392,*,,locale not requested
+eval-000393,*,,already in frozen final snapshot
+eval-000395,*,,locale not requested
+eval-000396,*,,locale not requested
+eval-000397,*,,locale not requested
+eval-000398,*,,locale not requested
+eval-000401,*,,locale not requested
+eval-000402,*,,already in frozen final snapshot
+eval-000403,*,,locale not requested
+eval-000404,*,,locale not requested
+eval-000405,*,,already in frozen final snapshot
+eval-000406,*,,locale not requested
+eval-000407,*,,locale not requested
+eval-000408,*,,locale not requested
+eval-000410,*,,locale not requested
+eval-000411,*,,locale not requested
+eval-000412,*,,locale not requested
+eval-000413,*,,locale not requested
+eval-000414,*,,locale not requested
+eval-000417,*,,locale not requested
+eval-000418,*,,locale not requested
+eval-000419,*,,locale not requested
+eval-000420,*,,locale not requested
+eval-000421,*,,locale not requested
+eval-000422,*,,locale not requested
+eval-000423,*,,locale not requested
+eval-000424,*,,already in frozen final snapshot
+eval-000425,*,,locale not requested
+eval-000426,*,,locale not requested
+eval-000435,*,,locale not requested
+eval-000437,*,,already in frozen final snapshot
+eval-000438,*,,locale not requested
+eval-000442,*,,locale not requested
+eval-000443,*,,locale not requested
+eval-000444,*,,locale not requested
+eval-000445,*,,locale not requested
+eval-000450,*,,not selected: after first 60 new ids
+eval-000452,*,,locale not requested
+eval-000455,*,,locale not requested
+eval-000459,*,,locale not requested
+eval-000460,*,,locale not requested
+eval-000463,*,,locale not requested
+eval-000464,*,,already in frozen final snapshot
+eval-000465,*,,already in frozen final snapshot
+eval-000466,*,,not selected: after first 60 new ids
+eval-000467,*,,locale not requested
+eval-000468,*,,locale not requested
+eval-000469,*,,locale not requested
+eval-000470,*,,locale not requested
+eval-000471,*,,not selected: after first 60 new ids
+eval-000472,*,,locale not requested
+eval-000473,*,,locale not requested
+eval-000474,*,,not selected: after first 60 new ids
+eval-000475,*,,not selected: after first 60 new ids
+eval-000476,*,,locale not requested
+eval-000478,*,,not selected: after first 60 new ids
+eval-000479,*,,locale not requested
+eval-000480,*,,locale not requested
+eval-000481,*,,locale not requested
+eval-000482,*,,locale not requested
+eval-000483,*,,locale not requested
+eval-000484,*,,not selected: after first 60 new ids
+eval-000485,*,,not selected: after first 60 new ids
+eval-000486,*,,locale not requested
+eval-000487,*,,locale not requested
+eval-000488,*,,locale not requested
+eval-000489,*,,not selected: after first 60 new ids
+eval-000490,*,,locale not requested
+eval-000491,*,,locale not requested
+eval-000492,*,,not selected: after first 60 new ids
+eval-000493,*,,locale not requested
+eval-000494,*,,locale not requested
+eval-000495,*,,locale not requested
+eval-000496,*,,locale not requested
+eval-000497,*,,locale not requested
+eval-000498,*,,not selected: after first 60 new ids
+eval-000499,*,,not selected: after first 60 new ids
+eval-000500,*,,not selected: after first 60 new ids
+eval-000501,*,,already in frozen final snapshot
+eval-000502,*,,locale not requested
+eval-000503,*,,not selected: after first 60 new ids
+eval-000504,*,,not selected: after first 60 new ids
+eval-000505,*,,locale not requested
+eval-000506,*,,already in frozen final snapshot
+eval-000507,*,,not selected: after first 60 new ids
+eval-000508,*,,locale not requested
+eval-000509,*,,locale not requested
+eval-000510,*,,locale not requested
+eval-000511,*,,already in frozen final snapshot
+eval-000512,*,,locale not requested
+eval-000513,*,,locale not requested
+eval-000514,*,,not selected: after first 60 new ids
+eval-000515,*,,locale not requested
+eval-000516,*,,not selected: after first 60 new ids
+eval-000517,*,,locale not requested
+eval-000518,*,,not selected: after first 60 new ids
+eval-000519,*,,locale not requested
+eval-000520,*,,not selected: after first 60 new ids
+eval-000521,*,,not selected: after first 60 new ids
+eval-000522,*,,not selected: after first 60 new ids
+eval-000523,*,,locale not requested
+eval-000524,*,,locale not requested
+eval-000525,*,,locale not requested
+eval-000526,*,,not selected: after first 60 new ids
+eval-000527,*,,not selected: after first 60 new ids
+eval-000528,*,,locale not requested
+eval-000529,*,,not selected: after first 60 new ids
+eval-000530,*,,locale not requested
+eval-000531,*,,locale not requested
+eval-000532,*,,locale not requested
+eval-000533,*,,not selected: after first 60 new ids
+eval-000534,*,,not selected: after first 60 new ids
+eval-000535,*,,locale not requested
+eval-000536,*,,not selected: after first 60 new ids
+eval-000537,*,,not selected: after first 60 new ids
+eval-000538,*,,not selected: after first 60 new ids
+eval-000539,*,,already in frozen final snapshot
+eval-000540,*,,not selected: after first 60 new ids
+eval-000541,*,,locale not requested
+eval-000542,*,,locale not requested
+eval-000543,*,,not selected: after first 60 new ids
+eval-000544,*,,not selected: after first 60 new ids
+eval-000545,*,,not selected: after first 60 new ids
+eval-000546,*,,not selected: after first 60 new ids
+eval-000547,*,,locale not requested
+eval-000548,*,,not selected: after first 60 new ids
+eval-000549,*,,not selected: after first 60 new ids
+eval-000550,*,,locale not requested
+eval-000551,*,,locale not requested
+eval-000552,*,,not selected: after first 60 new ids
+eval-000553,*,,not selected: after first 60 new ids
+eval-000554,*,,locale not requested
+eval-000555,*,,locale not requested
+eval-000556,*,,locale not requested
+eval-000557,*,,locale not requested
+eval-000558,*,,not selected: after first 60 new ids
+eval-000559,*,,locale not requested
+eval-000560,*,,not selected: after first 60 new ids
+eval-000561,*,,not selected: after first 60 new ids
+eval-000562,*,,already in frozen final snapshot
+eval-000563,*,,not selected: after first 60 new ids
+eval-000564,*,,locale not requested
+eval-000565,*,,not selected: after first 60 new ids
+eval-000566,*,,not selected: after first 60 new ids
+eval-000567,*,,not selected: after first 60 new ids
+eval-000568,*,,not selected: after first 60 new ids
+eval-000569,*,,locale not requested
+eval-000570,*,,not selected: after first 60 new ids
+eval-000571,*,,locale not requested
+eval-000572,*,,locale not requested
+eval-000573,*,,locale not requested
+eval-000574,*,,not selected: after first 60 new ids
+eval-000575,*,,locale not requested
+eval-000576,*,,locale not requested
+eval-000577,*,,already in frozen final snapshot
+eval-000578,*,,locale not requested
+eval-000579,*,,locale not requested
+eval-000580,*,,locale not requested
+eval-000581,*,,locale not requested
+eval-000582,*,,not selected: after first 60 new ids
+eval-000583,*,,locale not requested
+eval-000584,*,,not selected: after first 60 new ids
+eval-000585,*,,locale not requested
+eval-000586,*,,locale not requested
+eval-000587,*,,locale not requested
+eval-000588,*,,locale not requested
+eval-000589,*,,not selected: after first 60 new ids
+eval-000590,*,,locale not requested
+eval-000591,*,,locale not requested
+eval-000592,*,,locale not requested
+eval-000593,*,,not selected: after first 60 new ids
+eval-000594,*,,locale not requested
+eval-000595,*,,already in frozen final snapshot
+eval-000596,*,,locale not requested
+eval-000597,*,,locale not requested
+eval-000598,*,,locale not requested
+eval-000599,*,,locale not requested
+eval-000600,*,,locale not requested
+eval-000601,*,,locale not requested
+eval-000602,*,,locale not requested
+eval-000603,*,,locale not requested
+eval-000604,*,,not selected: after first 60 new ids
+eval-000605,*,,locale not requested
+eval-000606,*,,locale not requested
+eval-000607,*,,locale not requested
+eval-000608,*,,already in frozen final snapshot
+eval-000609,*,,already in frozen final snapshot
+eval-000610,*,,locale not requested
+eval-000611,*,,locale not requested
+eval-000612,*,,not selected: after first 60 new ids
+eval-000613,*,,locale not requested
+eval-000614,*,,already in frozen final snapshot
+eval-000615,*,,not selected: after first 60 new ids
+eval-000616,*,,not selected: after first 60 new ids
+eval-000617,*,,locale not requested
+eval-000618,*,,locale not requested
+eval-000619,*,,locale not requested
+eval-000620,*,,not selected: after first 60 new ids
+eval-000621,*,,locale not requested
+eval-000622,*,,not selected: after first 60 new ids
+eval-000623,*,,locale not requested
+eval-000624,*,,not selected: after first 60 new ids
+eval-000625,*,,not selected: after first 60 new ids
+eval-000626,*,,locale not requested
+eval-000627,*,,locale not requested
+eval-000628,*,,locale not requested
+eval-000629,*,,locale not requested
+eval-000630,*,,locale not requested
+eval-000631,*,,not selected: after first 60 new ids
+eval-000632,*,,locale not requested
+eval-000633,*,,not selected: after first 60 new ids
+eval-000634,*,,locale not requested
+eval-000635,*,,locale not requested
+eval-000636,*,,not selected: after first 60 new ids
+eval-000637,*,,not selected: after first 60 new ids
+eval-000638,*,,locale not requested
+eval-000639,*,,locale not requested
+eval-000640,*,,locale not requested
+eval-000641,*,,locale not requested
+eval-000642,*,,not selected: after first 60 new ids
+eval-000643,*,,not selected: after first 60 new ids
+eval-000644,*,,locale not requested
+eval-000645,*,,not selected: after first 60 new ids
+eval-000646,*,,not selected: after first 60 new ids
+eval-000647,*,,locale not requested
+eval-000648,*,,locale not requested
+eval-000649,*,,locale not requested
+eval-000650,*,,not selected: after first 60 new ids
+eval-000651,*,,locale not requested
+eval-000652,*,,locale not requested
+eval-000653,*,,not selected: after first 60 new ids
+eval-000654,*,,locale not requested
+eval-000655,*,,locale not requested
+eval-000656,*,,locale not requested
+eval-000657,*,,locale not requested
+eval-000658,*,,locale not requested
+eval-000659,*,,locale not requested
+eval-000660,*,,locale not requested
+eval-000661,*,,already in frozen final snapshot
+eval-000662,*,,locale not requested
+eval-000663,*,,locale not requested
+eval-000664,*,,locale not requested
+eval-000665,*,,locale not requested
+eval-000666,*,,locale not requested
+eval-000667,*,,not selected: after first 60 new ids
+eval-000668,*,,locale not requested
+eval-000669,*,,locale not requested
+eval-000670,*,,locale not requested
+eval-000671,*,,not selected: after first 60 new ids
+eval-000672,*,,locale not requested
+eval-000673,*,,not selected: after first 60 new ids
+eval-000674,*,,already in frozen final snapshot
+eval-000675,*,,not selected: after first 60 new ids
+eval-000676,*,,locale not requested
+eval-000677,*,,locale not requested
+eval-000678,*,,locale not requested
+eval-000679,*,,not selected: after first 60 new ids
+eval-000680,*,,not selected: after first 60 new ids
+eval-000681,*,,locale not requested
+eval-000682,*,,locale not requested
+eval-000683,*,,not selected: after first 60 new ids
+eval-000684,*,,locale not requested
+eval-000685,*,,already in frozen final snapshot
+eval-000686,*,,not selected: after first 60 new ids
+eval-000687,*,,not selected: after first 60 new ids
+eval-000688,*,,locale not requested
+eval-000689,*,,not selected: after first 60 new ids
+eval-000690,*,,locale not requested
+eval-000691,*,,not selected: after first 60 new ids
+eval-000692,*,,locale not requested
+eval-000693,*,,locale not requested
+eval-000694,*,,locale not requested
+eval-000695,*,,locale not requested
+eval-000696,*,,already in frozen final snapshot
+eval-000697,*,,locale not requested
+eval-000698,*,,locale not requested
+eval-000699,*,,not selected: after first 60 new ids
+eval-000700,*,,already in frozen final snapshot
+eval-000701,*,,already in frozen final snapshot
+eval-000702,*,,locale not requested
+eval-000703,*,,not selected: after first 60 new ids
+eval-000704,*,,already in frozen final snapshot
+eval-000705,*,,locale not requested
+eval-000706,*,,locale not requested
+eval-000707,*,,locale not requested
+eval-000708,*,,locale not requested
+eval-000709,*,,locale not requested
+eval-000710,*,,locale not requested
+eval-000711,*,,not selected: after first 60 new ids
+eval-000712,*,,locale not requested
+eval-000713,*,,locale not requested
+eval-000714,*,,locale not requested
+eval-000715,*,,already in frozen final snapshot
+eval-000716,*,,not selected: after first 60 new ids
+eval-000717,*,,not selected: after first 60 new ids
+eval-000718,*,,not selected: after first 60 new ids
+eval-000719,*,,locale not requested
+eval-000720,*,,not selected: after first 60 new ids
+eval-000721,*,,not selected: after first 60 new ids
+eval-000722,*,,locale not requested
+eval-000723,*,,not selected: after first 60 new ids
+eval-000724,*,,not selected: after first 60 new ids
+eval-000725,*,,already in frozen final snapshot
+eval-000726,*,,locale not requested
+eval-000727,*,,locale not requested
+eval-000728,*,,not selected: after first 60 new ids
+eval-000729,*,,locale not requested
+eval-000730,*,,not selected: after first 60 new ids
+eval-000731,*,,locale not requested
+eval-000732,*,,not selected: after first 60 new ids
+eval-000733,*,,locale not requested
+eval-000734,*,,not selected: after first 60 new ids
+eval-000735,*,,not selected: after first 60 new ids
+eval-000736,*,,already in frozen final snapshot
+eval-000737,*,,locale not requested
+eval-000738,*,,not selected: after first 60 new ids
+eval-000739,*,,not selected: after first 60 new ids
+eval-000740,*,,not selected: after first 60 new ids
+eval-000741,*,,locale not requested
+eval-000742,*,,not selected: after first 60 new ids
+eval-000743,*,,not selected: after first 60 new ids
+eval-000744,*,,locale not requested
+eval-000745,*,,already in frozen final snapshot
+eval-000746,*,,locale not requested
+eval-000747,*,,locale not requested
+eval-000748,*,,locale not requested
+eval-000749,*,,not selected: after first 60 new ids
+eval-000750,*,,locale not requested
+eval-000751,*,,not selected: after first 60 new ids
+eval-000752,*,,locale not requested
+eval-000753,*,,locale not requested
+eval-000754,*,,not selected: after first 60 new ids
+eval-000755,*,,locale not requested
+eval-000756,*,,locale not requested
+eval-000757,*,,not selected: after first 60 new ids
+eval-000758,*,,already in frozen final snapshot
+eval-000759,*,,not selected: after first 60 new ids
+eval-000760,*,,not selected: after first 60 new ids
+eval-000761,*,,not selected: after first 60 new ids
+eval-000762,*,,not selected: after first 60 new ids
+eval-000763,*,,locale not requested
+eval-000764,*,,not selected: after first 60 new ids
+eval-000765,*,,locale not requested
+eval-000766,*,,locale not requested
+eval-000767,*,,locale not requested
+eval-000768,*,,not selected: after first 60 new ids
+eval-000769,*,,not selected: after first 60 new ids
+eval-000770,*,,locale not requested
+eval-000771,*,,locale not requested
+eval-000772,*,,not selected: after first 60 new ids
+eval-000773,*,,not selected: after first 60 new ids
+eval-000774,*,,not selected: after first 60 new ids
+eval-000775,*,,locale not requested
+eval-000776,*,,locale not requested
+eval-000777,*,,locale not requested
+eval-000778,*,,locale not requested
+eval-000779,*,,locale not requested
+eval-000780,*,,not selected: after first 60 new ids
+eval-000781,*,,not selected: after first 60 new ids
+eval-000782,*,,not selected: after first 60 new ids
+eval-000783,*,,locale not requested
+eval-000784,*,,not selected: after first 60 new ids
+eval-000785,*,,locale not requested
+eval-000786,*,,locale not requested
+eval-000787,*,,not selected: after first 60 new ids
+eval-000788,*,,not selected: after first 60 new ids
+eval-000789,*,,locale not requested
+eval-000790,*,,not selected: after first 60 new ids
+eval-000791,*,,locale not requested
+eval-000792,*,,already in frozen final snapshot
+eval-000793,*,,not selected: after first 60 new ids
+eval-000794,*,,not selected: after first 60 new ids
+eval-000795,*,,not selected: after first 60 new ids
+eval-000796,*,,not selected: after first 60 new ids
+eval-000797,*,,already in frozen final snapshot
+eval-000798,*,,locale not requested
+eval-000799,*,,locale not requested
+eval-000800,*,,locale not requested
+eval-000801,*,,not selected: after first 60 new ids
+eval-000802,*,,locale not requested
+eval-000803,*,,not selected: after first 60 new ids
+eval-000804,*,,not selected: after first 60 new ids
+eval-000805,*,,locale not requested
+eval-000806,*,,not selected: after first 60 new ids
+eval-000807,*,,not selected: after first 60 new ids
+eval-000808,*,,locale not requested
+eval-000809,*,,not selected: after first 60 new ids
+eval-000810,*,,already in frozen final snapshot
+eval-000811,*,,locale not requested
+eval-000812,*,,locale not requested
+eval-000813,*,,locale not requested
+eval-000814,*,,not selected: after first 60 new ids
+eval-000815,*,,locale not requested
+eval-000816,*,,not selected: after first 60 new ids
+eval-000817,*,,locale not requested
+eval-000818,*,,locale not requested
+eval-000819,*,,locale not requested
+eval-000820,*,,locale not requested
+eval-000821,*,,not selected: after first 60 new ids
+eval-000822,*,,locale not requested
+eval-000823,*,,not selected: after first 60 new ids
+eval-000824,*,,locale not requested
+eval-000825,*,,locale not requested
+eval-000826,*,,locale not requested
+eval-000827,*,,locale not requested
+eval-000828,*,,already in frozen final snapshot
+eval-000829,*,,not selected: after first 60 new ids
+eval-000830,*,,locale not requested
+eval-000831,*,,not selected: after first 60 new ids
+eval-000832,*,,locale not requested
+eval-000833,*,,locale not requested
+eval-000834,*,,locale not requested
+eval-000835,*,,not selected: after first 60 new ids
+eval-000836,*,,not selected: after first 60 new ids
+eval-000837,*,,locale not requested
+eval-000838,*,,locale not requested
+eval-000839,*,,locale not requested
+eval-000840,*,,locale not requested
+eval-000841,*,,locale not requested
+eval-000842,*,,locale not requested
+eval-000843,*,,not selected: after first 60 new ids
+eval-000844,*,,locale not requested
+eval-000845,*,,not selected: after first 60 new ids
+eval-000846,*,,locale not requested
+eval-000847,*,,not selected: after first 60 new ids
+eval-000848,*,,not selected: after first 60 new ids
+eval-000849,*,,locale not requested
+eval-000850,*,,not selected: after first 60 new ids
+eval-000851,*,,locale not requested
+eval-000852,*,,not selected: after first 60 new ids
+eval-000853,*,,locale not requested
+eval-000854,*,,locale not requested
+eval-000855,*,,locale not requested
+eval-000856,*,,locale not requested
+eval-000857,*,,locale not requested
+eval-000858,*,,locale not requested
+eval-000859,*,,not selected: after first 60 new ids
+eval-000860,*,,not selected: after first 60 new ids
+eval-000861,*,,locale not requested
+eval-000862,*,,already in frozen final snapshot
+eval-000863,*,,locale not requested
+eval-000864,*,,not selected: after first 60 new ids
+eval-000865,*,,locale not requested
+eval-000866,*,,not selected: after first 60 new ids
+eval-000867,*,,locale not requested
+eval-000868,*,,not selected: after first 60 new ids
+eval-000869,*,,locale not requested
+eval-000870,*,,not selected: after first 60 new ids
+eval-000871,*,,locale not requested
+eval-000872,*,,already in frozen final snapshot
+eval-000873,*,,locale not requested
+eval-000874,*,,locale not requested
+eval-000875,*,,already in frozen final snapshot
+eval-000876,*,,locale not requested
+eval-000877,*,,locale not requested
+eval-000878,*,,locale not requested
+eval-000879,*,,not selected: after first 60 new ids
+eval-000880,*,,locale not requested
+eval-000881,*,,not selected: after first 60 new ids
+eval-000882,*,,locale not requested
+eval-000883,*,,not selected: after first 60 new ids
+eval-000884,*,,locale not requested
+eval-000885,*,,locale not requested
+eval-000886,*,,not selected: after first 60 new ids
+eval-000887,*,,already in frozen final snapshot
+eval-000888,*,,locale not requested
+eval-000889,*,,not selected: after first 60 new ids
+eval-000890,*,,locale not requested
+eval-000891,*,,locale not requested
+eval-000892,*,,not selected: after first 60 new ids
+eval-000893,*,,locale not requested
+eval-000894,*,,not selected: after first 60 new ids
+eval-000895,*,,locale not requested
+eval-000896,*,,locale not requested
+eval-000897,*,,not selected: after first 60 new ids
+eval-000898,*,,locale not requested
+eval-000899,*,,not selected: after first 60 new ids
+eval-000900,*,,locale not requested
+eval-000901,*,,already in frozen final snapshot
+eval-000902,*,,locale not requested
+eval-000903,*,,locale not requested
+eval-000904,*,,not selected: after first 60 new ids
+eval-000905,*,,locale not requested
+eval-000906,*,,already in frozen final snapshot
+eval-000907,*,,already in frozen final snapshot
+eval-000908,*,,not selected: after first 60 new ids
+eval-000909,*,,locale not requested
+eval-000910,*,,not selected: after first 60 new ids
+eval-000911,*,,locale not requested
+eval-000912,*,,not selected: after first 60 new ids
+eval-000913,*,,locale not requested
+eval-000914,*,,locale not requested
+eval-000915,*,,not selected: after first 60 new ids
+eval-000916,*,,already in frozen final snapshot
+eval-000917,*,,locale not requested
+eval-000918,*,,locale not requested
+eval-000919,*,,not selected: after first 60 new ids
+eval-000920,*,,not selected: after first 60 new ids
+eval-000921,*,,locale not requested
+eval-000922,*,,locale not requested
+eval-000923,*,,not selected: after first 60 new ids
+eval-000924,*,,not selected: after first 60 new ids
+eval-000925,*,,not selected: after first 60 new ids
+eval-000926,*,,not selected: after first 60 new ids
+eval-000927,*,,not selected: after first 60 new ids
+eval-000928,*,,locale not requested
+eval-000929,*,,not selected: after first 60 new ids
+eval-000930,*,,locale not requested
+eval-000931,*,,not selected: after first 60 new ids
+eval-000932,*,,locale not requested
+eval-000933,*,,locale not requested
+eval-000934,*,,not selected: after first 60 new ids
+eval-000935,*,,not selected: after first 60 new ids
+eval-000936,*,,locale not requested
+eval-000937,*,,not selected: after first 60 new ids
+eval-000938,*,,not selected: after first 60 new ids
+eval-000939,*,,not selected: after first 60 new ids
+eval-000940,*,,locale not requested
+eval-000941,*,,locale not requested
+eval-000942,*,,already in frozen final snapshot
+eval-000943,*,,locale not requested
+eval-000944,*,,not selected: after first 60 new ids
+eval-000945,*,,not selected: after first 60 new ids
+eval-000946,*,,not selected: after first 60 new ids
+eval-000947,*,,locale not requested
+eval-000948,*,,not selected: after first 60 new ids
+eval-000949,*,,not selected: after first 60 new ids
+eval-000950,*,,not selected: after first 60 new ids
+eval-000951,*,,not selected: after first 60 new ids
+eval-000952,*,,already in frozen final snapshot
+eval-000953,*,,already in frozen final snapshot
+eval-000954,*,,not selected: after first 60 new ids
+eval-000955,*,,locale not requested
+eval-000956,*,,locale not requested
+eval-000957,*,,locale not requested
+eval-000958,*,,not selected: after first 60 new ids
+eval-000959,*,,locale not requested
+eval-000960,*,,locale not requested
+eval-000961,*,,not selected: after first 60 new ids
+eval-000962,*,,not selected: after first 60 new ids
+eval-000963,*,,not selected: after first 60 new ids
+eval-000964,*,,locale not requested
+eval-000965,*,,not selected: after first 60 new ids
+eval-000966,*,,not selected: after first 60 new ids
+eval-000967,*,,locale not requested
+eval-000968,*,,already in frozen final snapshot
+eval-000969,*,,not selected: after first 60 new ids
+eval-000970,*,,locale not requested
+eval-000971,*,,not selected: after first 60 new ids
+eval-000972,*,,locale not requested
+eval-000973,*,,not selected: after first 60 new ids
+eval-000974,*,,locale not requested
+eval-000975,*,,locale not requested
+eval-000976,*,,locale not requested
+eval-000977,*,,not selected: after first 60 new ids
+eval-000978,*,,locale not requested
+eval-000979,*,,locale not requested
+eval-000980,*,,locale not requested
+eval-000981,*,,locale not requested
+eval-000982,*,,not selected: after first 60 new ids
+eval-000983,*,,not selected: after first 60 new ids
+eval-000984,*,,locale not requested
+eval-000985,*,,not selected: after first 60 new ids
+eval-000986,*,,already in frozen final snapshot
+eval-000987,*,,locale not requested
+eval-000988,*,,locale not requested
+eval-000989,*,,already in frozen final snapshot
+eval-000990,*,,locale not requested
+eval-000991,*,,locale not requested
+eval-000992,*,,locale not requested
+eval-000993,*,,locale not requested
+eval-000994,*,,locale not requested
+eval-000995,*,,not selected: after first 60 new ids
+eval-000996,*,,not selected: after first 60 new ids
+eval-000997,*,,locale not requested
+eval-000998,*,,locale not requested
+eval-000999,*,,locale not requested
+synrec__eval-000012__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.16}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 5.58}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000012__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.16}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 5.58}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000013__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.33}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 4.86}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000013__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.33}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 4.86}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000035__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.96}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 11.4}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000035__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.96}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 11.4}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000073__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.59}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 8.14}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000073__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.59}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 8.14}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000123__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 3.27}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 6.44}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000123__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 3.27}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 6.44}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000130__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.33}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 28.51}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000130__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.33}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 28.51}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000185__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.29}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 5.14}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000185__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.29}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 5.14}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000197__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.13}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 13.53}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000197__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.13}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 13.53}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000217__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.7}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 7.66}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000217__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.7}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 7.66}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000219__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.33}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 19.45}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000219__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.33}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 19.45}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000293__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.31}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 10.13}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000293__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.31}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 10.13}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000298__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.96}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 6.54}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000298__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.96}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 6.54}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000306__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.17}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 23.07}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000306__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.17}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 23.07}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000322__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.13}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 19.32}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000322__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.13}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 19.32}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000326__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.05}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 14.49}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000326__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.05}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 14.49}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000343__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 2.19}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 3.99}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000343__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 2.19}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 3.99}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000361__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.7}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 6.27}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000361__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 1.7}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 6.27}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000382__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.65}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 16.64}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000382__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 0.65}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 16.64}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000394__clean,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 3.27}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 3.11}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000394__photo,tax_amount,"[{""label"": ""MwSt 7%"", ""rate"": 0.07, ""amount"": 3.27}, {""label"": ""MwSt 19%"", ""rate"": 0.19, ""amount"": 3.11}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000003__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.07}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 1.0}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000003__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.07}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 1.0}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000032__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.13}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 8.95}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000032__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.13}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 8.95}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000080__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.05}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 3.99}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000080__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.05}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 3.99}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000146__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.99}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 2.49}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000146__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.99}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 2.49}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000194__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 1.69}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 7.41}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000194__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 1.69}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 7.41}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000249__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.07}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 27.81}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000249__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.07}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 27.81}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000275__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 3.8}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 5.99}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000275__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 3.8}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 5.99}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000288__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 1.15}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 28.38}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000288__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 1.15}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 28.38}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000399__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.27}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 17.65}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000399__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.27}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 17.65}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000409__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 2.61}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 8.71}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000409__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 2.61}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 8.71}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000415__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.11}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 17.91}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000415__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 0.11}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 17.91}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000477__clean,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 1.25}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 3.0}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000477__photo,tax_amount,"[{""label"": ""TVA 5,5%"", ""rate"": 0.055, ""amount"": 1.25}, {""label"": ""TVA 20%"", ""rate"": 0.2, ""amount"": 3.0}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000018__clean,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.23}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 31.06}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000018__photo,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.23}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 31.06}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000054__clean,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 4.54}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 9.48}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000054__photo,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 4.54}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 9.48}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000108__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.05}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 5.67}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000108__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.05}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 5.67}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000165__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.03}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 2.43}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000165__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.03}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 2.43}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000195__clean,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.23}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 17.12}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000195__photo,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.23}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 17.12}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000199__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.27}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 1.44}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000199__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.27}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 1.44}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000236__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.15}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 13.15}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000236__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.15}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 13.15}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000250__clean,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.12}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 6.3}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000250__photo,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.12}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 6.3}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000259__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.02}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 9.83}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000259__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.02}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 9.83}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000296__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.0}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 2.03}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000296__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.0}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 2.03}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000305__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.0}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 19.19}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000305__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.0}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 19.19}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000310__clean,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.09}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 12.25}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000310__photo,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.09}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 12.25}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000433__clean,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.18}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 10.45}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000433__photo,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 0.18}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 10.45}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000451__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.96}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 3.06}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000451__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.96}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 3.06}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000454__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.02}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 24.21}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000454__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 0.02}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 24.21}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000456__clean,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.15}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 10.86}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000456__photo,tax_amount,"[{""label"": ""IVA 4%"", ""rate"": 0.04, ""amount"": 1.15}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 10.86}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000457__clean,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 1.45}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 4.05}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+synrec__eval-000457__photo,tax_amount,"[{""label"": ""IVA 10%"", ""rate"": 0.1, ""amount"": 1.45}, {""label"": ""IVA 22%"", ""rate"": 0.22, ""amount"": 4.05}]","multiple tax buckets or missing taxes: aggregate tax amount not printed as one field; not scored, not null"
+fatura__Template3_Instance0,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template34_Instance100,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template34_Instance100,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template34_Instance100__mask,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template34_Instance100__mask,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template10_Instance1,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template10_Instance1,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template10_Instance1__mask,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template10_Instance1__mask,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template8_Instance10,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template8_Instance0,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template30_Instance10,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template13_Instance1,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template13_Instance1,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template13_Instance100,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template13_Instance100,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template26_Instance10,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template26_Instance10,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template26_Instance10,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template36_Instance0,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template15_Instance100,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template15_Instance100,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template15_Instance100__mask,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template15_Instance100__mask,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template32_Instance10,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template32_Instance10__mask,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template19_Instance100,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template19_Instance100,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template19_Instance100,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template47_Instance100,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template47_Instance100,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template47_Instance100__mask,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template47_Instance100__mask,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template24_Instance0,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template24_Instance0,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template30_Instance100,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template30_Instance100__mask,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template24_Instance100,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template24_Instance100,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template24_Instance100__mask,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template24_Instance100__mask,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template23_Instance10,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template23_Instance10,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template40_Instance1,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template42_Instance1,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template42_Instance1,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template42_Instance1,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template49_Instance0,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template49_Instance0__mask,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template16_Instance10,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template22_Instance1,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template22_Instance1__mask,total_net,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template30_Instance1,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template20_Instance100,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template39_Instance1,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+fatura__Template39_Instance1__mask,total_gross,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+pt__20210428_144738,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+pt__20210318_123736,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+pt__20210318_202746,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+pt__20210507_203027,total_tax,,"invoice total not printed (answer null, field not masked): not scored. Owner decision 2026-11-13 (2) p.1, applied by tools/apply_gt_review.py"
+wild__0426,*,,"whole document excluded after round 1 (closeout 1.1): stock mock-up (template image), its arithmetic does not add up; owner decision 2026-11-13 (3); verdicts wild__0426::*"
+wild__0428,*,,"whole document excluded after round 1 (closeout 1.1): stock mock-up (template image), its arithmetic does not add up; owner decision 2026-11-13 (3); verdicts wild__0428::*"
+sroie__X51007579725__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: SUBTOTAL 55.90 + SRVC 5% 2.80 = 58.70; also CASH 100.00 - CHANGE 41.30
+sroie__X51005719898__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: GST summary Amt 11.23 + Tax 0.67 = 11.90; also CASH 22.00 - CHANGE 10.10
+sroie__X51008099088__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: items 2.10 + 0.20 = 2.30 (Total QTY 2)
+sroie__X51007846304__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: pre-rounding 'Total Amount: RM7.52' and 'Rounding: -RM0.02' visible (7.52 - 0.02 = 7.50); GST summary 7.52
+sroie__X51005757220__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: items 10.90 + 10.90 + 44.00 + 15.40 = 81.20; GST summary 79.09 + 2.11; CASH 100.00 - Change 18.80
+sroie__X51006556809__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: 'Total 6% supplies (Inc. GST) 19.98' + 'Total 0% supplies 23.38' = 43.36 (Total Payable painted)
+sroie__X51006557115__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: 'Total 6% supplies (Inc. GST) 21.75' + 'Total 0% supplies 13.83' = 35.58
+sroie__X51006556808__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: 'Total 6% supplies (Inc. GST) 60.34' + 'Total 0% supplies 18.92' = 79.26
+sroie__X51009008091__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: item 11.00 - Member Discount 1.10 = 9.90; GST summary 9.34 + 0.56; Cash 20.00 - CHANGE 10.10
+cord__014__mask,total,,"mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: SUBTOTAL 238,000 + Service 17,850 + PB1 25,585 = 281,435; also Coupon 100,000 + CASH 200,000 - Change 18,565"
+cord__070__mask,total,,"mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: SUBTOTAL 1,343,000 + SERVICE CHARGE 80,580 + Tax 10% 142,358 = 1,565,938"
+cord__020__mask,total,,"mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: SUBTOTAL 325,600 + Service chrg 17,908 + 10% PB1 34,351 = 377,859"
+cord__072__mask,total,,"mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: SubTotal 15,909 + PB1 1,591 = 17,500; also cash 20,000 - Change 2,500"
+cord__058__mask,tax_amount,,"mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: Total 60,500 - Sub Total 55,000 = 5,500 (PB1 painted)"
+cord__084__mask,tax_amount,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: Total Rp 39.600 - Subtotal Rp 36.000 = 3.600 = Tax (10.0%) of 36.000
+wild__0298__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: 'Rounding 12.00' and 'Rounding Adjust 0.02' visible: 12.00 - 0.02 = 11.98 (Eat-In Total painted)
+wild__0082__mask,total,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: SUBTOTAL $77.46 + 9.300% Sales Tax $6.65 = $84.11
+wild__0121__mask,subtotal,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: TOTAL 4.24 - SALES TAX 6% .24 = 4.00; items .50 + .50 + 1.50 + 1.50 = 4.00
+wild__0168__mask,tax_amount,,mask probe excluded (closeout 1.2): the painted amount can be derived from printed numbers or a rounded/other version stays visible: TOTAL JOD 3.05 - SUB-TOTAL 2.50 - SERVICE 0.20 = 0.35 (TAX 16% value painted)
+fatura__Template39_Instance1,seller_name,,"no seller name in text, only a logo roundel 'LCSR' (name or emblem unclear); excluded by owner decision (5)"
+fatura__Template39_Instance1__mask,seller_name,,same page as fatura__Template39_Instance1

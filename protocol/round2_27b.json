@@ -1,0 +1,23 @@
+{
+ "name": "Round 2 - Qwen3.8 27B, smoke",
+ "about": "protocol/preregistration.md, sections 3, 6, 7.2. Own 3-bit g64 quantisation from bf16 379e7084; default GPU limit. Second run with iogpu.wired_limit_mb=14000.",
+ "prompt": "P1b",
+ "docs": "protocol/samples/smoke.txt",
+ "where": [],
+ "runs": [
+  {
+   "run_id": "s2__qwen3.8-27b__q3",
+   "model": "local/Qwen3.8-27B-3bit-g64",
+   "revision": "local-379e7084-q3g64",
+   "prompt": "P1b",
+   "est_sec": 60
+  },
+  {
+   "run_id": "s2__qwen3.8-27b__q3w14",
+   "model": "local/Qwen3.8-27B-3bit-g64",
+   "revision": "local-379e7084-q3g64",
+   "prompt": "P1b",
+   "est_sec": 60
+  }
+ ]
+}

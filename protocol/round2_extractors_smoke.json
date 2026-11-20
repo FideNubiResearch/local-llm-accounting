@@ -1,0 +1,25 @@
+{
+ "name": "Round 2 - extractors, smoke",
+ "about": "protocol/preregistration.md, amendment of 2026-11-19 (extractors).",
+ "prompt": "P1b",
+ "where": [],
+ "runs": [
+  {
+   "run_id": "s2__nuextract3-4b__q6",
+   "model": "numind/NuExtract3-mlx-6bits",
+   "revision": "d0db1bdf8eea7e80fe1c08a0be3972f1f17539df",
+   "prompt": "P1b",
+   "nuextract": true,
+   "est_sec": 17
+  },
+  {
+   "run_id": "s2__lift-9b__q6c",
+   "model": "mlx-community/lift-oQ6",
+   "revision": "8fa369a9f9f3b0eebbf082674d92a2e7c64e5072",
+   "prompt": "P1b",
+   "constrained": true,
+   "est_sec": 28
+  }
+ ],
+ "docs": "protocol/samples/smoke.txt"
+}

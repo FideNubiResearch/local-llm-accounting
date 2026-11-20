@@ -1,0 +1,122 @@
+{
+ "name": "Round 2 - smoke runs of the new configurations",
+ "about": "protocol/preregistration.md, sections 3, 6. 33 documents (protocol/samples/smoke.txt) per finalist configuration.",
+ "prompt": "P1b",
+ "docs": "protocol/samples/smoke.txt",
+ "where": [],
+ "runs": [
+  {
+   "run_id": "s2__qwen3.5-9b__P0b",
+   "model": "mlx-community/Qwen3.5-9B-4bit",
+   "revision": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+   "prompt": "P0b",
+   "est_sec": 25
+  },
+  {
+   "run_id": "s2__qwen3.5-9b__P2b",
+   "model": "mlx-community/Qwen3.5-9B-4bit",
+   "revision": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+   "prompt": "P2b",
+   "est_sec": 25
+  },
+  {
+   "run_id": "s2__qwen3.5-9b__constr",
+   "model": "mlx-community/Qwen3.5-9B-4bit",
+   "revision": "8b2b98c00a6b4d291155e4890773ca8f769aee53",
+   "prompt": "P1b",
+   "est_sec": 25,
+   "constrained": true
+  },
+  {
+   "run_id": "s2__qwen3.5-9b__q6",
+   "model": "mlx-community/Qwen3.5-9B-6bit",
+   "revision": "76fe4065e622cf34990d3c13ef80ec8531c9a0f7",
+   "prompt": "P1b",
+   "est_sec": 25
+  },
+  {
+   "run_id": "s2__qwen3.5-9b__q8",
+   "model": "mlx-community/Qwen3.5-9B-8bit",
+   "revision": "16daa4818c54ce5f5436f929d52542eb65bbed9d",
+   "prompt": "P1b",
+   "est_sec": 25
+  },
+  {
+   "run_id": "s2__gemma4-12b__P0b",
+   "model": "mlx-community/gemma-4-12B-it-4bit",
+   "revision": "73bcf09092aa277861d5a191b989b666f7f32e8f",
+   "prompt": "P0b",
+   "est_sec": 28,
+   "max_soft_tokens": 1120
+  },
+  {
+   "run_id": "s2__gemma4-12b__P2b",
+   "model": "mlx-community/gemma-4-12B-it-4bit",
+   "revision": "73bcf09092aa277861d5a191b989b666f7f32e8f",
+   "prompt": "P2b",
+   "est_sec": 28,
+   "max_soft_tokens": 1120
+  },
+  {
+   "run_id": "s2__gemma4-12b__constr",
+   "model": "mlx-community/gemma-4-12B-it-4bit",
+   "revision": "73bcf09092aa277861d5a191b989b666f7f32e8f",
+   "prompt": "P1b",
+   "est_sec": 28,
+   "constrained": true,
+   "max_soft_tokens": 1120
+  },
+  {
+   "run_id": "s2__gemma4-12b__q6",
+   "model": "mlx-community/gemma-4-12B-it-6bit",
+   "revision": "2fe53aeb9b8686eefa543a60d6aa364c5b219aac",
+   "prompt": "P1b",
+   "est_sec": 28,
+   "max_soft_tokens": 1120
+  },
+  {
+   "run_id": "s2__gemma4-12b__q8",
+   "model": "mlx-community/gemma-4-12B-it-8bit",
+   "revision": "200bb6db075e137a4deb08838865ac4ddb86292e",
+   "prompt": "P1b",
+   "est_sec": 28,
+   "max_soft_tokens": 1120
+  },
+  {
+   "run_id": "s2__qwen3vl-8b__P0b",
+   "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+   "revision": "defcdea7cc7a4b0858fea563cbbce171d328e457",
+   "prompt": "P0b",
+   "est_sec": 25
+  },
+  {
+   "run_id": "s2__qwen3vl-8b__P2b",
+   "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+   "revision": "defcdea7cc7a4b0858fea563cbbce171d328e457",
+   "prompt": "P2b",
+   "est_sec": 25
+  },
+  {
+   "run_id": "s2__qwen3vl-8b__constr",
+   "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+   "revision": "defcdea7cc7a4b0858fea563cbbce171d328e457",
+   "prompt": "P1b",
+   "est_sec": 25,
+   "constrained": true
+  },
+  {
+   "run_id": "s2__qwen3vl-8b__q6",
+   "model": "mlx-community/Qwen3-VL-8B-Instruct-6bit",
+   "revision": "0b6a7d52ff9e393d9560e7b1e0fcd8ac40ba7b60",
+   "prompt": "P1b",
+   "est_sec": 25
+  },
+  {
+   "run_id": "s2__qwen3vl-8b__q8",
+   "model": "mlx-community/Qwen3-VL-8B-Instruct-8bit",
+   "revision": "a0093b9b5fda6f76ddd4a462c6830ae7c4fe47ec",
+   "prompt": "P1b",
+   "est_sec": 25
+  }
+ ]
+}

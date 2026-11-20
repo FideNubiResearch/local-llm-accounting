@@ -1,0 +1,31 @@
+{
+ "name": "Final run (f) - best round-2 configuration + qwen3.5-4b in the same mode, all of final/ v5",
+ "about": "protocol/preregistration.md section 5: best r2 configuration = gemma4-12b q6 (reports/round2/compare.md); qwen3.5-4b q6 - first a smoke run on 33 documents (section 3), the full run after the smoke run is accepted (hold). Started 2026-11-18, iogpu.wired_limit_mb = 0 (as in all of r2). Smoke s3 accepted on 2026-11-18 (JSON 100 %, F1 95.3 -> 96.3 vs 4-bit on the same 33 documents, swap 0), hold removed.",
+ "prompt": "P1b",
+ "where": [],
+ "runs": [
+  {
+   "run_id": "s3__qwen3.5-4b__q6",
+   "model": "mlx-community/Qwen3.5-4B-6bit",
+   "revision": "fbb1092aa9daef007603ea9273cd24c225a409f1",
+   "prompt": "P1b",
+   "docs": "protocol/samples/smoke.txt",
+   "est_sec": 14
+  },
+  {
+   "run_id": "f__gemma4-12b__q6",
+   "model": "mlx-community/gemma-4-12B-it-6bit",
+   "revision": "2fe53aeb9b8686eefa543a60d6aa364c5b219aac",
+   "prompt": "P1b",
+   "est_sec": 33,
+   "max_soft_tokens": 1120
+  },
+  {
+   "run_id": "f__qwen3.5-4b__q6",
+   "model": "mlx-community/Qwen3.5-4B-6bit",
+   "revision": "fbb1092aa9daef007603ea9273cd24c225a409f1",
+   "prompt": "P1b",
+   "est_sec": 14
+  }
+ ]
+}
