@@ -485,3 +485,9 @@ final/manifest.csv: n_values / n_null пересчитаны у 41 докуме�
 - Экстракторы: NuExtract3 4B q6 (адаптер промпта `harness/run.py: nuextract_inputs`, `--nuextract`) и lift 9B oQ6 (P1b + constrained), smoke 33 док. прошёл (JSON 100 / 97 %), затем 400 документов без ошибок и срабатываний защиты. Сравнение: `harness/ext_compare.py` → `reports/extractors/compare.md`, пересчёт скорером → `reports/rescore_ext/`. Итог: экстракторы не лучше gemma4-12b q6; NuExtract3 ≈ qwen3.5-4b; lift хуже по точности, но почти без выдумок вне `subtotal`.
 - `iogpu.wired_limit_mb` остаётся 14000 до перезагрузки (на результаты экстракторов не влияет).
 - Открыто: энергия (powermetrics, sudo), политика `subtotal`.
+
+## 2026-11-20 — энергия и политика subtotal
+
+- Правило sudoers только для `/usr/bin/powermetrics` (NOPASSWD), поставил владелец. `harness/energy.py` → `reports/energy/` (33 документа smoke на конфигурацию, run_id `e__…`). SoC ≈ 15 Вт у всех (GPU насыщен); Вт·ч/док: gemma4-12b q6 0,131, lift 0,100, qwen3.5-4b q6 0,059, NuExtract3 0,053.
+- Политика `subtotal` (владелец): выдумка, если промпт явно ограничивал вычисление. P1b ограничивает → текущий скоринг верен, пересчёт не нужен; P1 (раунд 1) не ограничивал → читать осторожнее. Записано в `reports/invented/analysis.md`, `reports/SUMMARY.md`.
+- Открыто: удалить правило sudoers, когда замеры не нужны; вернуть `iogpu.wired_limit_mb=0` (или перезагрузка).
