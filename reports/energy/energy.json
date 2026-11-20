@@ -1,0 +1,69 @@
+{
+ "idle_mw": 86.57627118644068,
+ "rows": [
+  {
+   "run": "e__gemma4-12b__q6",
+   "exit": 0,
+   "docs": 33,
+   "errors": 0,
+   "work_s": 1031.7,
+   "samples": 1042,
+   "cpu_mw": 237,
+   "gpu_mw": 14659,
+   "ane_mw": 0,
+   "total_mw": 14907,
+   "wh_per_doc": 0.1308,
+   "wh_per_doc_above_idle": 0.13,
+   "s_per_doc": 31.3,
+   "peak_gb": 12.584
+  },
+  {
+   "run": "e__qwen3.5-4b__q6",
+   "exit": 0,
+   "docs": 33,
+   "errors": 0,
+   "work_s": 457.0,
+   "samples": 470,
+   "cpu_mw": 304,
+   "gpu_mw": 14527,
+   "ane_mw": 0,
+   "total_mw": 14855,
+   "wh_per_doc": 0.0588,
+   "wh_per_doc_above_idle": 0.0584,
+   "s_per_doc": 13.8,
+   "peak_gb": 6.154
+  },
+  {
+   "run": "e__nuextract3-4b__q6",
+   "exit": 0,
+   "docs": 33,
+   "errors": 0,
+   "work_s": 409.6,
+   "samples": 423,
+   "cpu_mw": 320,
+   "gpu_mw": 14628,
+   "ane_mw": 0,
+   "total_mw": 14976,
+   "wh_per_doc": 0.0533,
+   "wh_per_doc_above_idle": 0.053,
+   "s_per_doc": 12.4,
+   "peak_gb": 6.057
+  },
+  {
+   "run": "e__lift-9b__q6c",
+   "exit": 0,
+   "docs": 33,
+   "errors": 0,
+   "work_s": 800.3,
+   "samples": 811,
+   "cpu_mw": 238,
+   "gpu_mw": 14508,
+   "ane_mw": 0,
+   "total_mw": 14760,
+   "wh_per_doc": 0.1008,
+   "wh_per_doc_above_idle": 0.1002,
+   "s_per_doc": 24.3,
+   "peak_gb": 10.299
+  }
+ ]
+}

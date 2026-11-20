@@ -29,7 +29,7 @@ find "$REPO" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
 git -C "$ROOT" archive HEAD harness tools tests protocol pyproject.toml uv.lock .gitignore \
   00-plan.md 01-literature.md 05-closeout-plan.md journal.md \
   final/README.md final/licenses.csv final/manifest.csv final/excluded.csv \
-  reports/SUMMARY.md reports/final reports/round2 reports/r1_vs_r1b reports/invented \
+  reports/SUMMARY.md reports/final reports/round2 reports/r1_vs_r1b reports/invented reports/extractors reports/energy \
   reports/models_catalog.md reports/models_setup.md | tar -x -C "$REPO"
 for d in "$ROOT"/runs/*/; do                       # aggregated per-run files only
   n="$(basename "$d")"
