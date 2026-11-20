@@ -478,3 +478,10 @@ final/manifest.csv: n_values / n_null пересчитаны у 41 докуме�
   `local-llm-accounting` (чистая история, без документов, ответов и предсказаний по документам; список и правила —
   `tools/publish_public.sh`). Лицензии: MIT (код), CC-BY-4.0 (тексты). `gh` установлен в ~/.local/bin.
 - Открыто: трек Qwen3.8 27B, экстракторы NuExtract3 и lift, энергия (powermetrics), политика subtotal.
+
+## 2026-11-20 — 27B и экстракторы
+
+- Qwen3.8 27B 3 бит: smoke при лимите по умолчанию остановлен защитой (своп +2,06 ГБ); при `iogpu.wired_limit_mb=14000` пик 14,7 ГБ, Metal OOM на каждом документе, остановлен вручную. Вердикт «не годится для Mac mini 16 ГБ», поправки в пререгистрации. В `harness/runner.py` добавлены локальные ревизии (`local-…`).
+- Экстракторы: NuExtract3 4B q6 (адаптер промпта `harness/run.py: nuextract_inputs`, `--nuextract`) и lift 9B oQ6 (P1b + constrained), smoke 33 док. прошёл (JSON 100 / 97 %), затем 400 документов без ошибок и срабатываний защиты. Сравнение: `harness/ext_compare.py` → `reports/extractors/compare.md`, пересчёт скорером → `reports/rescore_ext/`. Итог: экстракторы не лучше gemma4-12b q6; NuExtract3 ≈ qwen3.5-4b; lift хуже по точности, но почти без выдумок вне `subtotal`.
+- `iogpu.wired_limit_mb` остаётся 14000 до перезагрузки (на результаты экстракторов не влияет).
+- Открыто: энергия (powermetrics, sudo), политика `subtotal`.

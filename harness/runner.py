@@ -28,6 +28,8 @@ def _complete(local: Path, revision: str) -> bool:
 
 def download(repo: str, revision: str) -> Path:
     local = MODELS / repo.replace("/", "__")
+    if revision.startswith("local-") and (local / "config.json").exists():     # own quantisation made by mlx_vlm.convert
+        return local
     if _complete(local, revision):
         return local
     from huggingface_hub import snapshot_download
@@ -77,6 +79,12 @@ class Runner:
 
         return apply_chat_template(self.processor, self.config, text, num_images=n_images, enable_thinking=False)
 
+    def nuextract_prompt(self, template: str, instructions: str, n_images: int) -> str:
+        tok = self.processor.tokenizer if hasattr(self.processor, "tokenizer") else self.processor
+        msgs = [{"role": "user", "content": [{"type": "image"}] * n_images}]
+        return tok.apply_chat_template(msgs, template=template, instructions=instructions, enable_thinking=False,
+                                       add_generation_prompt=True, tokenize=False)
+
     def _schema_processor(self, schema: dict):
         import json
 
@@ -88,13 +96,13 @@ class Runner:
         return build_json_schema_logits_processor(tok, schema)
 
     def generate(self, text: str, images: list[str] | None = None, schema: dict | None = None,
-                 max_tokens: int = 2048) -> dict:
+                 max_tokens: int = 2048, prompt: str | None = None) -> dict:
         import psutil
         from mlx_vlm import stream_generate
 
         mx = self.mx
         images = images or []
-        prompt = self._prompt(text, len(images))
+        prompt = prompt if prompt is not None else self._prompt(text, len(images))
         kw = {"max_tokens": max_tokens, "temperature": 0.0}
         if schema is not None:
             kw["logits_processors"] = [self._schema_processor(schema)]

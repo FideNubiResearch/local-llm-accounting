@@ -63,6 +63,20 @@ def prompt_text(doc_type: str, prompt: str, schema: dict) -> str:
     return tpl.format(doc_type_human=human, schema=json.dumps(schema, ensure_ascii=False))
 
 
+NU_TYPES = {"issue_date": "date", "due_date": "date", "date": "date", "period_start": "date", "period_end": "date",
+            "time": "time", "currency": "currency",
+            "total_net": "number", "total_tax": "number", "total_gross": "number", "subtotal": "number",
+            "tax_amount": "number", "total": "number", "opening_balance": "number", "closing_balance": "number",
+            "payment_method": "string"}      # amounts are numbers (decimal point); everything else is copied verbatim
+
+
+def nuextract_inputs(doc_type: str, schema: dict) -> tuple[str, str]:
+    """NuExtract3 contract: JSON template with leaf types + instructions (the P1b rules without the schema header)."""
+    template = json.dumps({k: NU_TYPES.get(k, "verbatim-string") for k in schema["properties"]}, ensure_ascii=False)
+    rules = (PROMPTS / "P1b_null.txt").read_text().split("Rules:\n", 1)[1].replace("Return only the JSON object.", "").strip()
+    return template, rules
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True)
@@ -75,12 +89,15 @@ def main(argv=None):
     ap.add_argument("--max-soft-tokens", type=int, help="Gemma 4 image budget (visual tokens per image)")
     ap.add_argument("--max-tokens", type=int, default=1024)
     ap.add_argument("--constrained", action="store_true", help="JSON-schema constrained decoding")
+    ap.add_argument("--nuextract", action="store_true", help="NuExtract3 prompt: type template + instructions")
     ap.add_argument("--run-id")
     a = ap.parse_args(argv)
 
     rows = select(manifest(), a.where, a.docs, a.limit)
     config = {k: getattr(a, k) for k in ("model", "revision", "prompt", "max_pixels", "max_soft_tokens", "max_tokens",
                                        "constrained")}
+    if a.nuextract:
+        config["nuextract"] = True                     # only when set: configs of older runs stay comparable
     run_id = a.run_id or f"{a.model.split('/')[-1]}__{a.prompt}__{time.strftime('%Y%m%d-%H%M%S')}"
     out = ROOT / "runs" / run_id
     out.mkdir(parents=True, exist_ok=True)
@@ -120,7 +137,12 @@ def main(argv=None):
             schema = schema_for(r["doc_type"], a.prompt)
             text = prompt_text(r["doc_type"], a.prompt, schema)
             images = [str(FINAL / "docs" / r["doc_id"] / p) for p in ans["pages"]]
-            res = runner.generate(text, images, schema=schema if a.constrained else None, max_tokens=a.max_tokens)
+            if a.nuextract:
+                tpl, ins = nuextract_inputs(r["doc_type"], schema)
+                res = runner.generate(text, images, max_tokens=a.max_tokens,
+                                      prompt=runner.nuextract_prompt(tpl, ins, len(images)))
+            else:
+                res = runner.generate(text, images, schema=schema if a.constrained else None, max_tokens=a.max_tokens)
             parsed, strict = parse_json(res["text"])
             f.write(json.dumps({"doc_id": r["doc_id"], "parsed": parsed, "strict_json": strict, **res},
                                ensure_ascii=False) + "\n")

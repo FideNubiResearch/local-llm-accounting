@@ -42,6 +42,8 @@ def args_for(study: dict, e: dict) -> list[str]:
     for k in ("max_pixels", "max_soft_tokens", "max_tokens", "limit"):
         if e.get(k) is not None:
             a += [f"--{k.replace('_', '-')}", str(e[k])]
+    if e.get("nuextract"):
+        a.append("--nuextract")
     if e.get("constrained"):
         a.append("--constrained")
     return a

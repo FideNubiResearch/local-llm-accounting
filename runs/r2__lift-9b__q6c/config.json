@@ -1,0 +1,19 @@
+{
+ "model": "mlx-community/lift-oQ6",
+ "revision": "8fa369a9f9f3b0eebbf082674d92a2e7c64e5072",
+ "prompt": "P1b",
+ "max_pixels": null,
+ "max_soft_tokens": null,
+ "max_tokens": 1024,
+ "constrained": true,
+ "run_id": "r2__lift-9b__q6c",
+ "n_selected": 400,
+ "mlx_vlm": "0.7.10",
+ "image_processor": {
+  "min_pixels": 65536,
+  "max_pixels": 16777216
+ },
+ "load_s": 3.67,
+ "load_peak_gb": 8.258,
+ "finished_at": "2026-11-20 00:05:59"
+}
