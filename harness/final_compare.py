@@ -75,7 +75,7 @@ def by_group(df: pd.DataFrame, keys: list[str]) -> list[dict]:
         lo, hi = wilson(tp, int(vals.sum()))
         rows.append({**dict(zip(keys, g)), "docs": d["doc_id"].nunique(), "values": int(vals.sum()),
                      "acc": pct(m["value_acc"]), "ci": f"{pct(lo)}–{pct(hi)}", "f1": pct(m["f1"]),
-                     "inv": pct(m["invented"]), "note": "мало" if vals.sum() < MIN_VALUES else ""})
+                     "inv": pct(m["invented"]), "note": "few" if vals.sum() < MIN_VALUES else ""})
     return rows
 
 
@@ -95,56 +95,56 @@ def main(argv: list[str] | None = None) -> int:
         "qwen3.5-4b q6": read(base / "r1b__qwen3.5-4b__P1b" / "fields.csv"),
     }
     n_docs = {k: v["doc_id"].nunique() for k, v in cfg.items()}
-    L = ["# Итоговый прогон: gemma4-12b q6 против qwen3.5-4b q6", "",
-         f"Документов: {n_docs}. Метрики как в harness/prompt_compare.py (основные поля без payment_method). "
-         "Парные сравнения и разбивки — описательные, не часть заявленного в пререгистрации семейства проверок.", ""]
+    L = ["# Final run: gemma4-12b q6 vs qwen3.5-4b q6", "",
+         f"Documents: {n_docs}. Metrics as in harness/prompt_compare.py (main fields, payment_method excluded). "
+         "Paired comparisons and breakdowns are descriptive, not part of the pre-registered family of tests.", ""]
 
     # 1. overall
     rows = []
     for name in cfg:
-        for tag, df in ((f"{name}", cfg[name]), (f"{name.split()[0]} 4 бит (база r1b)", bases[name])):
+        for tag, df in ((f"{name}", cfg[name]), (f"{name.split()[0]} 4-bit (r1b base)", bases[name])):
             r = side_row(df)
             rows.append({"cfg": tag, "docs": df["doc_id"].nunique(), "f1": pct(r["f1"]), "acc": pct(r["value_acc"]),
                          "inv": pct(r["invented"]), "docs_ok": pct(r["docs_ok"]), "json": pct(r["json_valid"]),
                          "sec": f"{r['sec_median']:.1f}", "hours": f"{r['hours']:.1f}", "peak": f"{r['peak_gb']:.1f}"})
-    L += ["## 1. Все документы", "", table(rows, [("Конфигурация", "cfg"), ("Док.", "docs"), ("F1, %", "f1"),
-          ("Верных значений, %", "acc"), ("Выдумано, %", "inv"), ("Док. без ошибок, %", "docs_ok"),
-          ("JSON, %", "json"), ("с/док", "sec"), ("Часов", "hours"), ("Пик, ГБ", "peak")]), ""]
+    L += ["## 1. All documents", "", table(rows, [("Configuration", "cfg"), ("Docs", "docs"), ("F1, %", "f1"),
+          ("Correct values, %", "acc"), ("Invented, %", "inv"), ("Error-free docs, %", "docs_ok"),
+          ("JSON, %", "json"), ("s/doc", "sec"), ("Hours", "hours"), ("Peak, GB", "peak")]), ""]
 
     # 2. paired
     pr = []
     p = paired(cfg["qwen3.5-4b q6"], cfg["gemma4-12b q6"])
-    pr.append({"cmp": "gemma q6 против qwen3.5-4b q6", **p})
+    pr.append({"cmp": "gemma q6 vs qwen3.5-4b q6", **p})
     for name in cfg:
         p = paired(bases[name], cfg[name])
-        pr.append({"cmp": f"{name} против своей 4 бит базы", **p})
+        pr.append({"cmp": f"{name} vs its own 4-bit base", **p})
     for r in pr:
         r["p"] = f"{r['p']:.3g}"
-    L += ["## 2. Парное сравнение (ключи doc × поле, основные поля)", "",
-          "«Лучше» = неверно у первой конфигурации в строке слева от «против» и верно у второй.", "",
-          table(pr, [("Сравнение", "cmp"), ("Ключей", "keys"), ("Лучше", "better"), ("Хуже", "worse"),
-                     ("Итого", "net"), ("p (точный знаковый)", "p")]), ""]
+    L += ["## 2. Paired comparison (doc x field keys, main fields)", "",
+          "Better = wrong in the configuration left of \"vs\" and right in the other one.", "",
+          table(pr, [("Comparison", "cmp"), ("Keys", "keys"), ("Better", "better"), ("Worse", "worse"),
+                     ("Net", "net"), ("p (exact sign test)", "p")]), ""]
 
     # 3. real / generated
-    L += ["## 3. Реальные и сгенерированные документы", ""]
+    L += ["## 3. Real and generated documents", ""]
     for name, df in cfg.items():
-        L += [f"**{name}**", "", table(by_group(df, ["kind"]), [("Тип", "kind"), ("Док.", "docs"), ("Значений", "values"),
-              ("Верных, %", "acc"), ("95 % интервал", "ci"), ("F1, %", "f1"), ("Выдумано, %", "inv")]), ""]
+        L += [f"**{name}**", "", table(by_group(df, ["kind"]), [("Kind", "kind"), ("Docs", "docs"), ("Values", "values"),
+              ("Correct, %", "acc"), ("95 % interval", "ci"), ("F1, %", "f1"), ("Invented, %", "inv")]), ""]
     for name, df in bases.items():
-        L += [f"**{name.split()[0]} 4 бит (база)**", "", table(by_group(df, ["kind"]), [("Тип", "kind"),
-              ("Док.", "docs"), ("Значений", "values"), ("Верных, %", "acc"), ("95 % интервал", "ci"),
-              ("F1, %", "f1"), ("Выдумано, %", "inv")]), ""]
+        L += [f"**{name.split()[0]} 4-bit (base)**", "", table(by_group(df, ["kind"]), [("Kind", "kind"),
+              ("Docs", "docs"), ("Values", "values"), ("Correct, %", "acc"), ("95 % interval", "ci"),
+              ("F1, %", "f1"), ("Invented, %", "inv")]), ""]
 
     # 4. language within kind
-    L += ["## 4. По языкам внутри типа документов (разведочно)", "",
-          "Язык смешан с источником и типом: it/es/nl/pl — только сгенерированные. Группы с числом значений "
-          f"меньше {MIN_VALUES} помечены «мало» и не интерпретируются. Сравнивать языки имеет смысл только внутри "
-          "одного типа.", ""]
+    L += ["## 4. By language within document kind (exploratory)", "",
+          "Language is confounded with source and type: it/es/nl/pl are generated only. Groups with fewer than "
+          f"{MIN_VALUES} values are marked \"few\" and not interpreted. Languages are only comparable within "
+          "one kind.", ""]
     for name, df in cfg.items():
         rows = by_group(df, ["kind", "lang"])
-        L += [f"**{name}**", "", table(rows, [("Тип", "kind"), ("Язык", "lang"), ("Док.", "docs"),
-              ("Значений", "values"), ("Верных, %", "acc"), ("95 % интервал", "ci"), ("F1, %", "f1"),
-              ("Выдумано, %", "inv"), ("", "note")]), ""]
+        L += [f"**{name}**", "", table(rows, [("Kind", "kind"), ("Language", "lang"), ("Docs", "docs"),
+              ("Values", "values"), ("Correct, %", "acc"), ("95 % interval", "ci"), ("F1, %", "f1"),
+              ("Invented, %", "inv"), ("", "note")]), ""]
 
     out = ROOT / a.out
     out.mkdir(parents=True, exist_ok=True)

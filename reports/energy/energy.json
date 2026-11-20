@@ -65,5 +65,7 @@
    "s_per_doc": 24.3,
    "peak_gb": 10.299
   }
- ]
+ ],
+ "idle_s": 59,
+ "docs": "protocol/samples/smoke.txt"
 }

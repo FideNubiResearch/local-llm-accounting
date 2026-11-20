@@ -4,8 +4,8 @@ Why: on 2026-11-15 gemma4-12b q8 pushed the machine into swap (1 -> 5 GB, pressu
 rebooted it (panic 20:39:30). Prefill of an image is one blocking Metal call, so it cannot be interrupted from the
 generation loop; a watcher thread ends the whole process instead.
 
-Rule (protocol/preregistration.md, section 6, "Память"): swap grew by more than SWAP_LIMIT_GB since the run started,
-or pressure stayed critical for CRITICAL_S seconds -> the configuration is recorded as "не годится для Mac mini 16 ГБ"
+Rule (protocol/preregistration.md, section 6, "Memory"): swap grew by more than SWAP_LIMIT_GB since the run started,
+or pressure stayed critical for CRITICAL_S seconds -> the configuration is recorded as "not suitable for a 16 GB Mac mini"
 (runs/<id>/ABORTED.json), the process exits with code 75 before the machine hangs. harness.study treats such a run
 as finished and moves on (restart the queue after the exit).
 """
@@ -43,7 +43,7 @@ def start(cfg_path: Path, every: float = 1.0) -> threading.Event:
     def trip(reason: str, swap: float, level: int | None):
         info = {"reason": reason, "swap_gb": round(swap, 2), "swap_start_gb": round(base, 2),
                 "pressure_level": level, "at": time.strftime("%Y-%m-%d %H:%M:%S"),
-                "verdict": "не годится для Mac mini 16 ГБ"}
+                "verdict": "not suitable for a 16 GB Mac mini"}
         print(f"MEMORY GUARD: {reason}; run aborted", flush=True)
         try:
             # separate file: config.json may be mid-rewrite by the run itself

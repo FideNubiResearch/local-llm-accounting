@@ -18,7 +18,7 @@ from harness.prompt_compare import RIGHT, SEPARATE, side_row, sign_test
 from harness.round2_compare import holm
 
 ROOT = Path(__file__).resolve().parents[1]
-EXT = ["NuExtract3 4B q6", "lift 9B q6 (схема)"]
+EXT = ["NuExtract3 4B q6", "lift 9B q6 (schema)"]
 
 
 def keys_paired(a: pd.DataFrame, b: pd.DataFrame, only_null: bool) -> dict:
@@ -58,37 +58,37 @@ def main(argv=None) -> int:
     }
     for k, v in cfg.items():
         assert v["doc_id"].nunique() == len(sample), (k, v["doc_id"].nunique())
-    L = ["# Экстракторы против VLM на тех же 400 документах", "",
-         "Метрики как в harness/prompt_compare.py (основные поля без payment_method). Парные тесты описательные: "
-         "отдельное семейство «экстракторы», поправка Холма по парам этой страницы; не часть семейства раунда 2.", ""]
+    L = ["# Extractors vs. VLMs on the same 400 documents", "",
+         "Metrics as in harness/prompt_compare.py (main fields, payment_method excluded). Paired tests are descriptive: "
+         "a separate \"extractors\" family, Holm correction over the pairs on this page; not part of the round-2 family.", ""]
     rows = []
     for name, df in cfg.items():
         r = side_row(df)
         rows.append({"cfg": name, "f1": pct(r["f1"]), "acc": pct(r["value_acc"]), "inv": pct(r["invented"]),
                      "inv2": pct(inv_no_sub(df)), "docs_ok": pct(r["docs_ok"]), "json": pct(r["json_valid"]),
                      "sec": f"{r['sec_median']:.1f}", "hours": f"{r['hours']:.1f}", "peak": f"{r['peak_gb']:.1f}"})
-    L += ["## 1. Общая таблица", "", table(rows, [("Конфигурация", "cfg"), ("F1, %", "f1"), ("Верных значений, %", "acc"),
-          ("Выдумано, %", "inv"), ("Выдумано без subtotal чеков, %", "inv2"), ("Док. без ошибок, %", "docs_ok"),
-          ("JSON, %", "json"), ("с/док (медиана)", "sec"), ("Часов на 400", "hours"), ("Пик, ГБ", "peak")]), ""]
-    for title, only_null in (("2. Парное сравнение по всем основным ключам", False),
-                             ("3. Парное сравнение только по ключам с ответом null (выдумки)", True)):
+    L += ["## 1. Overview", "", table(rows, [("Configuration", "cfg"), ("F1, %", "f1"), ("Correct values, %", "acc"),
+          ("Invented, %", "inv"), ("Invented excl. receipt subtotal, %", "inv2"), ("Error-free docs, %", "docs_ok"),
+          ("JSON, %", "json"), ("s/doc (median)", "sec"), ("Hours per 400", "hours"), ("Peak, GB", "peak")]), ""]
+    for title, only_null in (("2. Paired comparison over all main keys", False),
+                             ("3. Paired comparison over keys whose answer is null (invented values)", True)):
         pr = []
         for e in EXT:
             for ref in ("gemma4-12b q6", "qwen3.5-4b q6"):
-                pr.append({"cmp": f"{e} против {ref}", **keys_paired(cfg[ref], cfg[e], only_null)})
+                pr.append({"cmp": f"{e} vs {ref}", **keys_paired(cfg[ref], cfg[e], only_null)})
         for r, h in zip(pr, holm([r["p"] for r in pr])):
             r["p"], r["ph"] = f"{r['p']:.3g}", f"{h:.3g}"
-        L += [f"## {title}", "", "«Лучше» = неверно у конфигурации справа от «против» и верно у экстрактора слева.", "",
-              table(pr, [("Сравнение", "cmp"), ("Ключей", "keys"), ("Лучше", "better"), ("Хуже", "worse"),
-                         ("Итого", "net"), ("p", "p"), ("p по Холму", "ph")]), ""]
-    L += ["## 4. Реальные и сгенерированные документы", ""]
+        L += [f"## {title}", "", "Better = wrong in the configuration right of \"vs\" and right in the extractor on the left.", "",
+              table(pr, [("Comparison", "cmp"), ("Keys", "keys"), ("Better", "better"), ("Worse", "worse"),
+                         ("Net", "net"), ("p", "p"), ("p (Holm)", "ph")]), ""]
+    L += ["## 4. Real and generated documents", ""]
     for name, df in cfg.items():
-        L += [f"**{name}**", "", table(by_group(df, ["kind"]), [("Тип", "kind"), ("Док.", "docs"), ("Значений", "values"),
-              ("Верных, %", "acc"), ("95 % интервал", "ci"), ("F1, %", "f1"), ("Выдумано, %", "inv")]), ""]
-    L += ["## 5. По типу документа", ""]
+        L += [f"**{name}**", "", table(by_group(df, ["kind"]), [("Kind", "kind"), ("Docs", "docs"), ("Values", "values"),
+              ("Correct, %", "acc"), ("95 % interval", "ci"), ("F1, %", "f1"), ("Invented, %", "inv")]), ""]
+    L += ["## 5. By document type", ""]
     for name, df in cfg.items():
-        L += [f"**{name}**", "", table(by_group(df, ["doc_type"]), [("Тип", "doc_type"), ("Док.", "docs"),
-              ("Значений", "values"), ("Верных, %", "acc"), ("F1, %", "f1"), ("Выдумано, %", "inv")]), ""]
+        L += [f"**{name}**", "", table(by_group(df, ["doc_type"]), [("Type", "doc_type"), ("Docs", "docs"),
+              ("Values", "values"), ("Correct, %", "acc"), ("F1, %", "f1"), ("Invented, %", "inv")]), ""]
     out = ROOT / a.out
     out.mkdir(parents=True, exist_ok=True)
     (out / "compare.md").write_text("\n".join(L))

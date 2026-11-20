@@ -1,8 +1,8 @@
-# Энергия на документ (powermetrics)
+# Energy per document (powermetrics)
 
-Выборка: protocol/samples/smoke.txt (33 документа), CPU+GPU+ANE, шаг 1 с. Простой машины: 0.09 Вт (59 с). Учтена фаза обработки документов (загрузка модели исключена). Мощность всей системы (розетка) не измерялась.
+Sample: protocol/samples/smoke.txt (33 documents), CPU+GPU+ANE, 1 s step. Idle: 0.09 W (60 s). Only the document-processing phase is counted (model loading excluded). Whole-system (wall) power was not measured.
 
-| Конфигурация | Док. | Ошибок | с/док | CPU, Вт | GPU, Вт | Всего, Вт | Вт·ч/док | Вт·ч/док сверх простоя | Пик, ГБ |
+| Configuration | Docs | Errors | s/doc | CPU, W | GPU, W | Total, W | Wh/doc | Wh/doc above idle | Peak, GB |
 |---|---|---|---|---|---|---|---|---|---|
 | e__gemma4-12b__q6 | 33 | 0 | 31.3 | 0.2 | 14.7 | 14.9 | 0.1308 | 0.13 | 12.584 |
 | e__qwen3.5-4b__q6 | 33 | 0 | 13.8 | 0.3 | 14.5 | 14.9 | 0.0588 | 0.0584 | 6.154 |

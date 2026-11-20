@@ -67,12 +67,32 @@ def mean(rows, i):
     return sum(r[i] for r in rows) / len(rows) if rows else float("nan")
 
 
+def render(out: Path) -> list[str]:
+    d = json.loads((out / "energy.json").read_text())
+    idle_mw, rows = d["idle_mw"], d["rows"]
+    L = ["# Energy per document (powermetrics)", "",
+         f"Sample: {d.get('docs', 'protocol/samples/smoke.txt')} (33 documents), CPU+GPU+ANE, 1 s step. "
+         f"Idle: {idle_mw / 1000:.2f} W ({d.get('idle_s', 60)} s). "
+         "Only the document-processing phase is counted (model loading excluded). Whole-system (wall) power was not measured.", "",
+         "| Configuration | Docs | Errors | s/doc | CPU, W | GPU, W | Total, W | Wh/doc | Wh/doc above idle | Peak, GB |",
+         "|---|---|---|---|---|---|---|---|---|---|"]
+    for r in rows:
+        L.append(f"| {r['run']} | {r['docs']} | {r['errors']} | {r['s_per_doc']} | {r['cpu_mw'] / 1000:.1f} | {r['gpu_mw'] / 1000:.1f} | "
+                 f"{r['total_mw'] / 1000:.1f} | {r['wh_per_doc']} | {r['wh_per_doc_above_idle']} | {r['peak_gb']} |")
+    (out / "energy.md").write_text("\n".join(L) + "\n")
+    return L
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--docs", default="protocol/samples/smoke.txt")
     ap.add_argument("--idle", type=int, default=60)
     ap.add_argument("--out", default="reports/energy")
+    ap.add_argument("--render", action="store_true", help="only rebuild energy.md from energy.json")
     a = ap.parse_args(argv)
+    if a.render:
+        print("\n".join(render(ROOT / a.out)))
+        return 0
     meter = Meter()
     time.sleep(5)
     t0 = time.time()
@@ -108,16 +128,8 @@ def main(argv=None) -> int:
     meter.stop()
     out = ROOT / a.out
     out.mkdir(parents=True, exist_ok=True)
-    L = ["# Энергия на документ (powermetrics)", "",
-         f"Выборка: {a.docs} (33 документа), CPU+GPU+ANE, шаг 1 с. Простой машины: {idle_mw / 1000:.2f} Вт ({len(idle)} с). "
-         "Учтена фаза обработки документов (загрузка модели исключена). Мощность всей системы (розетка) не измерялась.", "",
-         "| Конфигурация | Док. | Ошибок | с/док | CPU, Вт | GPU, Вт | Всего, Вт | Вт·ч/док | Вт·ч/док сверх простоя | Пик, ГБ |",
-         "|---|---|---|---|---|---|---|---|---|---|"]
-    for r in rows:
-        L.append(f"| {r['run']} | {r['docs']} | {r['errors']} | {r['s_per_doc']} | {r['cpu_mw'] / 1000:.1f} | {r['gpu_mw'] / 1000:.1f} | "
-                 f"{r['total_mw'] / 1000:.1f} | {r['wh_per_doc']} | {r['wh_per_doc_above_idle']} | {r['peak_gb']} |")
-    (out / "energy.md").write_text("\n".join(L) + "\n")
-    (out / "energy.json").write_text(json.dumps({"idle_mw": idle_mw, "rows": rows}, indent=1))
+    (out / "energy.json").write_text(json.dumps({"idle_mw": idle_mw, "idle_s": len(idle), "docs": a.docs, "rows": rows}, indent=1))
+    L = render(out)
     print("\n".join(L))
     return 0
 
